@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+}
+
+.header, .footer {
+  background-color: #b1e5f2;
+  color: #272635;
+}
+
+.header {
+  overflow: hidden;
+  border-bottom: 1px solid #272635;
+}
+
+h1 {
+  text-align: center;
+}
+
+#main {
+  padding: 2em 2em 1em;
+  background-color: #cecece;
+  overflow: hidden;
+}
+
+.channelContainer {
+  border: 1px solid #272635;
+  background-color: #e8e9f3;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-style: italic;
+}
+
+.footer {
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+  border-top: 1px solid #272635;
+}
