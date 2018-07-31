@@ -9,6 +9,8 @@ const main = document.getElementById('main');
 const data = [
   {
     name: 'HBO',
+    image: 'hbogo.png',
+    link: 'https://play.hbogo.com/',
     shows: ['Barry', 'Silicon Valley', 'Veep', 'The Wire', 'Blade Runner 2049'],
   },
   {
@@ -79,10 +81,12 @@ function render(data) {
   data.forEach(channel => {
     // This array to store html with h2 for title, and all shows as li within a ul
     let channelData = [];
-    // Create the h2 element for the channel name
+    // Create the h2 element for the channel name and include a link if it exists
+
     const channelName = `<div class="channelContainer"><h2>${
       channel.name
     }</h2>`;
+
     // Push the 1st half of the ul tag with class name into the array
     channelData.push(`${channelName}<ul class='${channel.name}'>`);
     // Interate over each show in the shows array and push into the array with an li tag

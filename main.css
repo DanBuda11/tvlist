@@ -27,6 +27,7 @@ h1 {
   background-color: #e8e9f3;
   padding: 1em;
   margin-bottom: 1em;
+  border-radius: 1em;
 }
 
 h2 {
@@ -41,6 +42,7 @@ ul {
 
 li {
   font-style: italic;
+  line-height: 1.25em;
 }
 
 .footer {
