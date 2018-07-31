@@ -3,13 +3,13 @@ body {
 }
 
 .header, .footer {
-  background-color: #b1e5f2;
-  color: #272635;
+  background-color: #235789;
+  color: #fff;
 }
 
 .header {
   overflow: hidden;
-  border-bottom: 1px solid #272635;
+  /* border-bottom: 1px solid #272635; */
 }
 
 h1 {
@@ -17,21 +17,50 @@ h1 {
 }
 
 #main {
-  padding: 2em 2em 1em;
-  background-color: #cecece;
+  padding: 1em 2em;
+  /* background-color: #cecece; */
   overflow: hidden;
 }
 
 .channelContainer {
-  border: 1px solid #272635;
-  background-color: #e8e9f3;
+  /* border: 1px solid #272635; */
+  /* background-color: #fff; */
   padding: 1em;
-  margin-bottom: 1em;
-  border-radius: 1em;
+  /* margin-bottom: 1em; */
+  /* border-radius: .5em; */
+  border-bottom: 1px solid #000;
+}
+
+.channelContainer:last-of-type{
+  border: none;
 }
 
 h2 {
-  margin: 0;
+  margin: 0 0 0.3em 0;
+}
+
+.netflix {
+  color: #b9090b;
+}
+
+.hulu {
+  color: #3DBB3D;
+}
+
+.amazon {
+  color: #ff9900;
+}
+
+.hbo {
+  color: #0F0F0F;
+}
+
+.library {
+  color: #0E6AA8;
+}
+
+.vue {
+  color: #1275B0;
 }
 
 ul {
@@ -49,5 +78,5 @@ li {
   text-align: center;
   padding: 1em;
   font-weight: bold;
-  border-top: 1px solid #272635;
+  /* border-top: 1px solid #272635; */
 }

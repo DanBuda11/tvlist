@@ -8,24 +8,37 @@ const main = document.getElementById('main');
 // Hard-coded data just to get it up and running
 const data = [
   {
-    name: 'HBO',
+    name: 'Amazon Prime Video',
+    class: 'amazon',
+    shows: ['The Man in the High Castle', 'Jack Ryan'],
+  },
+  {
+    name: 'Austin Public Library',
+    class: 'library',
+    shows: ['Pacific Rim: Uprising', 'Super Troopers 2'],
+  },
+  {
+    name: 'HBO Go',
+    class: 'hbo',
     image: 'hbogo.png',
     link: 'https://play.hbogo.com/',
     shows: ['Barry', 'Silicon Valley', 'Veep', 'The Wire', 'Blade Runner 2049'],
   },
   {
     name: 'Hulu',
+    class: 'hulu',
     shows: ["The Handmaid's Tale"],
   },
   {
     name: 'Netflix',
+    class: 'netflix',
     shows: [
       "Marvel's Luke Cage",
-      'Marvels Iron Fist',
+      "Marvel's Iron Fist",
       'The Flash',
       'DCs Legends of Tommorrow',
       "Marvel's The Punisher",
-      'Marvels Agents of Shield',
+      "Marvel's Agents of S.H.I.E.L.D.",
       'Walk Hard: The Dewey Cox Story',
       'Arrested Development',
       'Stranger Things',
@@ -40,7 +53,8 @@ const data = [
     ],
   },
   {
-    name: 'Vue',
+    name: 'Playstation Vue',
+    class: 'vue',
     shows: [
       'Archer',
       'The Last Man on Earth',
@@ -54,15 +68,8 @@ const data = [
     ],
   },
   {
-    name: 'Amazon',
-    shows: ['The Man in the High Castle', 'Jack Ryan'],
-  },
-  {
-    name: 'Library',
-    shows: ['Pacific Rim: Uprising', 'Super Troopers 2'],
-  },
-  {
     name: 'Other',
+    class: 'other',
     shows: [
       "Ocean's 8",
       'The Incredibles 2',
@@ -83,14 +90,22 @@ function render(data) {
     let channelData = [];
     // Create the h2 element for the channel name and include a link if it exists
 
-    const channelName = `<div class="channelContainer"><h2>${
-      channel.name
-    }</h2>`;
+    const channelName = `<div class="channelContainer"><h2 class=${
+      channel.class
+    }>${channel.name}</h2>`;
 
     // Push the 1st half of the ul tag with class name into the array
-    channelData.push(`${channelName}<ul class='${channel.name}'>`);
-    // Interate over each show in the shows array and push into the array with an li tag
-    channel.shows.forEach(show => {
+    channelData.push(`${channelName}<ul class='${channel.class}list'>`);
+    // Sort each show in the channel's shows alphabetically without "a", "an", "the".
+    function strip(show) {
+      return show.replace(/^(a |the |an )/i, '').trim();
+    }
+    const sortedShows = channel.shows.sort(
+      (a, b) => (strip(a) > strip(b) ? 1 : -1)
+    );
+
+    // Iterate over each show in the shows array and push into the array with an li tag
+    sortedShows.forEach(show => {
       channelData.push(`<li>${show}</li>`);
     });
     // Wrap the end of the array with the closing ul tag
