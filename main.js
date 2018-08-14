@@ -22,7 +22,7 @@ const data = [
     class: 'hbo',
     image: 'hbogo.png',
     link: 'https://play.hbogo.com/',
-    shows: ['Barry', 'Silicon Valley', 'Veep', 'The Wire', 'Blade Runner 2049'],
+    shows: ['Barry', 'Silicon Valley', 'Veep', 'The Wire', 'Blade Runner 2049', 'Westworld'],
   },
   {
     name: 'Hulu',
