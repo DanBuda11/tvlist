@@ -15,14 +15,21 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Pacific Rim: Uprising', 'Super Troopers 2'],
+    shows: ['Rampage', 'A Quiet Place'],
   },
   {
     name: 'HBO Go',
     class: 'hbo',
     image: 'hbogo.png',
     link: 'https://play.hbogo.com/',
-    shows: ['Barry', 'Silicon Valley', 'Veep', 'The Wire', 'Blade Runner 2049', 'Westworld'],
+    shows: [
+      'Barry',
+      'Silicon Valley',
+      'Veep',
+      'The Wire',
+      'Blade Runner 2049',
+      'Westworld',
+    ],
   },
   {
     name: 'Hulu',
@@ -50,6 +57,7 @@ const data = [
       "Marvel's Daredevil",
       'Better Call Saul',
       'Queer Eye',
+      'Altered Carbon',
     ],
   },
   {
