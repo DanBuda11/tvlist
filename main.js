@@ -15,7 +15,12 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Rampage', 'A Quiet Place'],
+    shows: [
+      'Sicario: Day of the Soldado',
+      'Skyscraper',
+      'Ant-Man and the Wasp',
+      "Ocean's Eight",
+    ],
   },
   {
     name: 'HBO Go',
@@ -34,7 +39,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale"],
+    shows: ["The Handmaid's Tale", 'The Last Man on Earth'],
   },
   {
     name: 'Netflix',
@@ -43,10 +48,9 @@ const data = [
       "Marvel's Luke Cage",
       "Marvel's Iron Fist",
       'The Flash',
-      'DCs Legends of Tommorrow',
+      "DC's Legends of Tommorrow",
       "Marvel's The Punisher",
       "Marvel's Agents of S.H.I.E.L.D.",
-      'Walk Hard: The Dewey Cox Story',
       'Arrested Development',
       'Stranger Things',
       'House of Cards',
@@ -58,6 +62,11 @@ const data = [
       'Better Call Saul',
       'Queer Eye',
       'Altered Carbon',
+      'The West Wing',
+      'Maniac',
+      'Supergirl',
+      'Black Lightning',
+      'The Good Place',
     ],
   },
   {
@@ -65,10 +74,8 @@ const data = [
     class: 'vue',
     shows: [
       'Archer',
-      'The Last Man on Earth',
       'Modern Family',
-      'The Good Place',
-      'Mr Robot',
+      'Mr. Robot',
       'The Walking Dead',
       'Rick & Morty',
       'Fear the Walking Dead',
@@ -79,11 +86,14 @@ const data = [
     name: 'Other',
     class: 'other',
     shows: [
-      "Ocean's 8",
       'The Incredibles 2',
-      'Jurassic World: Fallen Kingrom',
-      'Ant-Man and the Wasp',
       'Mission Impossible: Fallout',
+      'Solo',
+      'A Star is Born',
+      'Venom',
+      'First Man',
+      'Bohemain Rhapsody',
+      'Walk Hard: The Dewey Cox Story',
     ],
   },
 ];
