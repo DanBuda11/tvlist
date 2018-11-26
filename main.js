@@ -15,12 +15,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: [
-      'Sicario: Day of the Soldado',
-      'Skyscraper',
-      'Ant-Man and the Wasp',
-      "Ocean's Eight",
-    ],
+    shows: ['Sicario: Day of the Soldado', 'Skyscraper', "Ocean's Eight"],
   },
   {
     name: 'HBO Go',
@@ -34,6 +29,7 @@ const data = [
       'The Wire',
       'Blade Runner 2049',
       'Westworld',
+      'Tomb Raider',
     ],
   },
   {
@@ -67,6 +63,10 @@ const data = [
       'Supergirl',
       'Black Lightning',
       'The Good Place',
+      'Narcos',
+      'Narcos: Mexico',
+      'The Haunting of Hill House',
+      '',
     ],
   },
   {
@@ -118,8 +118,8 @@ function render(data) {
     function strip(show) {
       return show.replace(/^(a |the |an )/i, '').trim();
     }
-    const sortedShows = channel.shows.sort(
-      (a, b) => (strip(a) > strip(b) ? 1 : -1)
+    const sortedShows = channel.shows.sort((a, b) =>
+      strip(a) > strip(b) ? 1 : -1
     );
 
     // Iterate over each show in the shows array and push into the array with an li tag
