@@ -15,7 +15,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Sicario: Day of the Soldado', 'Skyscraper', "Ocean's Eight"],
+    shows: ["Ocean's Eight", 'Deadpool 2', 'Mission Impossible Fallout', 'Solo', 'Incredibles 2'],
   },
   {
     name: 'HBO Go',
@@ -41,7 +41,6 @@ const data = [
     name: 'Netflix',
     class: 'netflix',
     shows: [
-      "Marvel's Luke Cage",
       "Marvel's Iron Fist",
       'The Flash',
       "DC's Legends of Tommorrow",
@@ -49,16 +48,13 @@ const data = [
       "Marvel's Agents of S.H.I.E.L.D.",
       'Arrested Development',
       'Stranger Things',
-      'House of Cards',
       'Gotham',
       "Marvel's Jessica Jones",
       'Arrow',
-      "Marvel's The Defenders",
       "Marvel's Daredevil",
       'Better Call Saul',
       'Queer Eye',
       'Altered Carbon',
-      'The West Wing',
       'Maniac',
       'Supergirl',
       'Black Lightning',
@@ -66,7 +62,6 @@ const data = [
       'Narcos',
       'Narcos: Mexico',
       'The Haunting of Hill House',
-      '',
     ],
   },
   {
@@ -86,14 +81,10 @@ const data = [
     name: 'Other',
     class: 'other',
     shows: [
-      'The Incredibles 2',
-      'Mission Impossible: Fallout',
-      'Solo',
       'A Star is Born',
       'Venom',
       'First Man',
       'Bohemain Rhapsody',
-      'Walk Hard: The Dewey Cox Story',
     ],
   },
 ];
