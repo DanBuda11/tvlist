@@ -15,7 +15,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ["Ocean's Eight", 'Deadpool 2', 'Mission Impossible Fallout', 'Solo', 'Incredibles 2'],
+    shows: ['Mission Impossible Fallout', 'Solo', 'Incredibles 2'],
   },
   {
     name: 'HBO Go',
@@ -41,7 +41,6 @@ const data = [
     name: 'Netflix',
     class: 'netflix',
     shows: [
-      "Marvel's Iron Fist",
       'The Flash',
       "DC's Legends of Tommorrow",
       "Marvel's The Punisher",
