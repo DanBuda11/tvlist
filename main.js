@@ -84,6 +84,7 @@ const data = [
       'Venom',
       'First Man',
       'Bohemain Rhapsody',
+      'Spider-Man: Into the Spider-Verse',
     ],
   },
 ];
