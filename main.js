@@ -15,7 +15,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Mission Impossible Fallout', 'Solo', 'Incredibles 2'],
+    shows: ['Mission Impossible Fallout', 'Solo'],
   },
   {
     name: 'HBO Go',
