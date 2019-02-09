@@ -15,7 +15,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Mission Impossible Fallout', 'Solo'],
+    shows: ['Solo'],
   },
   {
     name: 'HBO Go',
@@ -85,6 +85,11 @@ const data = [
       'First Man',
       'Bohemain Rhapsody',
       'Spider-Man: Into the Spider-Verse',
+      'Happytime Murders',
+      'Fantastic Beasts 2',
+      'Creed 2',
+      'Aquaman',
+      'Bumblebee',
     ],
   },
 ];
