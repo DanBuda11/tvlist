@@ -87,6 +87,8 @@ const data = [
       'Creed 2',
       'Aquaman',
       'Bumblebee',
+      'The Lego Movie 2: The Second One',
+      'Vice',
     ],
   },
 ];
