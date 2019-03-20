@@ -30,6 +30,7 @@ const data = [
       'Blade Runner 2049',
       'Westworld',
       'Tomb Raider',
+      'Game of Thrones',
     ],
   },
   {
@@ -61,7 +62,7 @@ const data = [
       'Narcos',
       'Narcos: Mexico',
       'The Haunting of Hill House',
-      'Schitts Creek',
+      'Star Wars: The Clone Wars: Lost Missions',
     ],
   },
   {
@@ -75,6 +76,7 @@ const data = [
       'Rick & Morty',
       'Fear the Walking Dead',
       "It's Always Sunny in Philadelphia",
+      "Schitt's Creek",
     ],
   },
   {
