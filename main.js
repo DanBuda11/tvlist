@@ -10,7 +10,7 @@ const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: ['The Man in the High Castle', 'Jack Ryan'],
+    shows: ['The Man in the High Castle', 'Jack Ryan', 'Battlestar Galactica'],
   },
   {
     name: 'Austin Public Library',
