@@ -10,12 +10,12 @@ const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: ['The Man in the High Castle', 'Jack Ryan', 'Battlestar Galactica'],
+    shows: ['The Man in the High Castle', 'Jack Ryan'],
   },
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['A Star is Born', 'Bohemian Rhapsody', 'That Thing You Do!'],
+    shows: ['Bohemian Rhapsody', 'First Man', 'Spider-Man: Into the Spider-Verse', 'The Happytime Murders', 'Creed 2',],
   },
   {
     name: 'HBO Go',
@@ -62,7 +62,6 @@ const data = [
       'Narcos',
       'Narcos: Mexico',
       'The Haunting of Hill House',
-      'Star Wars: The Clone Wars: Lost Missions',
     ],
   },
   {
@@ -83,11 +82,7 @@ const data = [
     name: 'Other',
     class: 'other',
     shows: [
-      'First Man',
-      'Spider-Man: Into the Spider-Verse',
-      'Happytime Murders',
       'Fantastic Beasts 2',
-      'Creed 2',
       'Aquaman',
       'Bumblebee',
       'Vice',
