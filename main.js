@@ -62,6 +62,10 @@ const data = [
       'Narcos',
       'Narcos: Mexico',
       'The Haunting of Hill House',
+      'The Seventies',
+      'The Eighties',
+      'The Nineties',
+      'The 2000s',
     ],
   },
   {
@@ -86,6 +90,7 @@ const data = [
       'Aquaman',
       'Bumblebee',
       'Vice',
+      'Shazam!',
     ],
   },
 ];
