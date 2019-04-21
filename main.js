@@ -10,12 +10,12 @@ const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: ['The Man in the High Castle', 'Jack Ryan'],
+    shows: ['The Man in the High Castle', 'Jack Ryan', 'The Hunt',],
   },
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Bohemian Rhapsody', 'First Man', 'Spider-Man: Into the Spider-Verse', 'The Happytime Murders', 'Creed 2',],
+    shows: ['Spider-Man: Into the Spider-Verse', 'Creed 2',],
   },
   {
     name: 'HBO Go',
@@ -30,7 +30,6 @@ const data = [
       'Blade Runner 2049',
       'Westworld',
       'Tomb Raider',
-      'Game of Thrones',
     ],
   },
   {
@@ -91,6 +90,7 @@ const data = [
       'Bumblebee',
       'Vice',
       'Shazam!',
+      'Captain Marvel',
     ],
   },
 ];
