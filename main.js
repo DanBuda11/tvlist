@@ -15,7 +15,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Creed 2',],
+    shows: ['Creed 2', 'Blade Runner 2049', 'Fantastic Beasts: The Crimes of Grindelwald', 'Bumblebee', 'Vice',],
   },
   {
     name: 'HBO Go',
@@ -30,6 +30,7 @@ const data = [
       'Blade Runner 2049',
       'Westworld',
       'Tomb Raider',
+      'The Case Against Adnan Syed',
     ],
   },
   {
@@ -63,7 +64,6 @@ const data = [
       'The Haunting of Hill House',
       'The Seventies',
       'The Eighties',
-      'The Nineties',
       'The 2000s',
     ],
   },
@@ -85,12 +85,10 @@ const data = [
     name: 'Other',
     class: 'other',
     shows: [
-      'Fantastic Beasts 2',
       'Aquaman',
-      'Bumblebee',
-      'Vice',
       'Shazam!',
       'Captain Marvel',
+      'Avengers: Endgame',
     ],
   },
 ];
