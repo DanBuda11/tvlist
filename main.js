@@ -25,7 +25,6 @@ const data = [
     shows: [
       'Barry',
       'Silicon Valley',
-      'Veep',
       'The Wire',
       'Blade Runner 2049',
       'Westworld',
@@ -89,6 +88,7 @@ const data = [
       'Shazam!',
       'Captain Marvel',
       'Avengers: Endgame',
+      'John Wick 3',
     ],
   },
 ];
