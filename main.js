@@ -27,7 +27,7 @@ const data = [
       'Silicon Valley',
       'The Wire',
       'Westworld',
-      'Tomb Raider',
+      'Chernobyl',
       'The Case Against Adnan Syed',
     ],
   },
