@@ -15,7 +15,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Bumblebee', 'Vice',],
+    shows: ['Bumblebee', 'Vice', 'Aquaman',],
   },
   {
     name: 'HBO Go',
@@ -34,7 +34,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale", 'The Last Man on Earth'],
+    shows: ["The Handmaid's Tale",],
   },
   {
     name: 'Netflix',
@@ -44,20 +44,16 @@ const data = [
       "DC's Legends of Tommorrow",
       "Marvel's The Punisher",
       "Marvel's Agents of S.H.I.E.L.D.",
-      'Arrested Development',
       'Stranger Things',
       'Gotham',
       "Marvel's Jessica Jones",
       'Arrow',
-      "Marvel's Daredevil",
       'Better Call Saul',
       'Queer Eye',
       'Altered Carbon',
       'Supergirl',
       'Black Lightning',
       'The Good Place',
-      'The Seventies',
-      'The Eighties',
     ],
   },
   {
@@ -78,7 +74,6 @@ const data = [
     name: 'Other',
     class: 'other',
     shows: [
-      'Aquaman',
       'Shazam!',
       'Captain Marvel',
       'Avengers: Endgame',
