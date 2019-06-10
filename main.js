@@ -10,7 +10,7 @@ const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: ['The Man in the High Castle', 'Jack Ryan', 'The Hunt',],
+    shows: ['The Man in the High Castle', 'Jack Ryan', 'The Hunt', 'Mr Robot (Season 3)',],
   },
   {
     name: 'Austin Public Library',
@@ -25,10 +25,9 @@ const data = [
     shows: [
       'Barry',
       'Silicon Valley',
-      'The Wire',
+      'The Wire (Season 3+)',
       'Westworld',
       'Chernobyl',
-      'The Case Against Adnan Syed',
     ],
   },
   {
@@ -60,12 +59,10 @@ const data = [
     name: 'Playstation Vue',
     class: 'vue',
     shows: [
-      'Archer',
+      'Archer (Season 8+)',
       'Modern Family',
-      'Mr. Robot',
-      'The Walking Dead',
       'Rick & Morty',
-      'Fear the Walking Dead',
+      'Fear the Walking Dead (Season 3+)',
       "It's Always Sunny in Philadelphia",
       "Schitt's Creek",
     ],
@@ -78,6 +75,7 @@ const data = [
       'Captain Marvel',
       'Avengers: Endgame',
       'John Wick 3',
+      'The Walking Dead (Season 9)',
     ],
   },
 ];
