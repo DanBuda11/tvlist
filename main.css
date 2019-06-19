@@ -2,6 +2,28 @@ body {
   font-family: sans-serif;
 }
 
+.btn {
+  bottom: 20px;
+  right: 20px;
+  position: fixed;
+  padding: 0;
+  border: none;
+  color: #b9090b;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  transition: 0.5s ease;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.btn i {
+  margin: 0;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+
 .header, .footer {
   background-color: #235789;
   color: #fff;
@@ -9,7 +31,6 @@ body {
 
 .header {
   overflow: hidden;
-  /* border-bottom: 1px solid #272635; */
 }
 
 h1 {
@@ -18,26 +39,25 @@ h1 {
 
 #main {
   padding: 1em 2em;
-  /* background-color: #cecece; */
   overflow: hidden;
   max-width: 900px;
   margin: 0 auto;
 }
 
-.channelContainer {
-  /* border: 1px solid #272635; */
-  /* background-color: #fff; */
+.channelContainer, .bookSeries {
   padding: 1em;
-  /* margin-bottom: 1em; */
-  /* border-radius: .5em; */
   border-bottom: 1px solid #000;
 }
 
-.channelContainer:last-of-type{
+.channelContainer:last-of-type, .bookSeries:last-of-type {
   border: none;
 }
 
 h2 {
+  margin: 0 0 0.3em 0;
+}
+
+h3 {
   margin: 0 0 0.3em 0;
 }
 
@@ -80,5 +100,4 @@ li {
   text-align: center;
   padding: 1em;
   font-weight: bold;
-  /* border-top: 1px solid #272635; */
 }

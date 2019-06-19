@@ -1,21 +1,38 @@
 const main = document.getElementById('main');
 
-// Better version to include where I'm at in the series, when new seasons are expected to come out, and
-// distinctions between tv shows and movies. Still better version allows me to use a tiny mongoDB backend
-// and easily update the list on the fly, including the last episode of something I watched and an easy
-// "remove" button (and add).
+const btn = document.querySelector('.btn');
+const btnIcon = document.querySelector('.fas');
 
-// Hard-coded data just to get it up and running
+// Create empty array to store data (push) each time a data item is mapped over
+let allData = [];
+
+btn.addEventListener('click', () => {
+  if (btnIcon.classList.contains('fa-book')) {
+    btnIcon.classList.add('fa-tv');
+    btnIcon.classList.remove('fa-book');
+    renderBooks(books);
+  } else {
+    btnIcon.classList.remove('fa-tv');
+    btnIcon.classList.add('fa-book');
+    renderShows(data);
+  }
+});
+
 const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: ['The Man in the High Castle', 'Jack Ryan', 'The Hunt', 'Mr Robot (Season 3)',],
+    shows: [
+      'The Man in the High Castle',
+      'Jack Ryan',
+      'The Hunt',
+      'Mr Robot (Season 3)',
+    ],
   },
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Bumblebee', 'Vice', 'Aquaman',],
+    shows: ['Bumblebee', 'Vice', 'Aquaman'],
   },
   {
     name: 'HBO Go',
@@ -33,7 +50,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale",],
+    shows: ["The Handmaid's Tale"],
   },
   {
     name: 'Netflix',
@@ -80,10 +97,75 @@ const data = [
   },
 ];
 
+const books = [
+  {
+    series: "You Don't Know JS",
+    titles: ['Types & Grammar', 'Async & Performance', 'ES6 & Beyond'],
+  },
+  {
+    series: 'The Lost Chronicles Trilogy',
+    titles: ['Dragons of the Highlord Skies', 'Dragons of the Hourglass Mage'],
+  },
+  {
+    series: 'The War of Souls Trilogy',
+    titles: [
+      'Dragons of a Fallen Sun',
+      'Dragons of a Lost Star',
+      'Dragons of a Vanished Moon',
+    ],
+  },
+  {
+    series: 'Dark Disciple Trilogy',
+    titles: ['Amber and Ashes', 'Amber and Iron', 'Amber and Blood'],
+  },
+  {
+    series: 'The Raistlin Chronicles',
+    titles: ['The Soulforge', 'Brothers in Arms'],
+  },
+  {
+    series: 'Dragonlance Tales I',
+    titles: [
+      'The Magic of Krynn',
+      'Kender, Gully Dwarves and Gnomes',
+      'Love and War',
+    ],
+  },
+  {
+    series: 'Dragonlance Tales II',
+    titles: ['The Reign of Istar', 'The Cataclysm', 'The War of the Lance'],
+  },
+  {
+    series: 'Dragon Anthologies',
+    titles: [
+      'The Dragons of Krynn',
+      'The Dragons at War',
+      'The Dragons of Chaos',
+    ],
+  },
+  {
+    series: 'Requiem: Dragonfire Rain',
+    titles: ['Blood of Dragons', 'Rage of Dragons', 'Flight of Dragons'],
+  },
+  {
+    series: '',
+    titles: ['Riddley Walker (Russell Hoban)'],
+  },
+  {
+    series: '',
+    titles: ['Starting Strength'],
+  },
+  {
+    series: '',
+    titles: ['Practical Programming for Strength Training'],
+  },
+  {
+    series: '',
+    titles: ["The Heart of the Buddha's Teaching"],
+  },
+];
+
 // Function to interate over all data and do all the work
-function render(data) {
-  // Create empty array to store data (push) each time a channel is mapped over
-  let allData = [];
+function renderShows(data) {
   // Work with each tv channel one at a time
   data.forEach(channel => {
     // This array to store html with h2 for title, and all shows as li within a ul
@@ -115,7 +197,24 @@ function render(data) {
   });
   // Render all mapped data to the screen
   main.innerHTML = allData.join('');
+  allData = [];
 }
 
-// Run the function
-render(data);
+function renderBooks(books) {
+  books.map(book => {
+    if (book.series !== '') {
+      allData.push(`<ul class="bookSeries"><li><h3>${book.series}</h3></li>`);
+      book.titles.map(title => {
+        allData.push(`<li>${title}</li>`);
+      });
+      allData.push('</ul>');
+    } else {
+      allData.push(`<ul class="bookSeries"><li>${book.titles[0]}</li></ul>`);
+    }
+  });
+  main.innerHTML = allData.join('');
+  allData = [];
+}
+
+// Run the function for initial render
+renderShows(data);
