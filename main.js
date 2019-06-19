@@ -93,6 +93,13 @@ const data = [
       'Avengers: Endgame',
       'John Wick 3',
       'The Walking Dead (Season 9)',
+      'Dark Phoenix',
+      'Godzilla: King of the Monsters',
+      'Spider-Man: Far From Home',
+      'Us',
+      'Fast & Furious Presents: Hobbs & Shaw',
+      'Hellboy',
+      'Alita: Battle Angel',
     ],
   },
 ];
