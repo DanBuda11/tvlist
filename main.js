@@ -159,10 +159,6 @@ const books = [
   },
   {
     series: '',
-    titles: ['Starting Strength'],
-  },
-  {
-    series: '',
     titles: ['Practical Programming for Strength Training'],
   },
   {
