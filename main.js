@@ -32,7 +32,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Bumblebee', 'Vice', 'Aquaman'],
+    shows: ['Get Out', 'Aquaman'],
   },
   {
     name: 'HBO Go',
@@ -50,7 +50,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale"],
+    shows: ["The Handmaid's Tale", 'Veronica Mars'],
   },
   {
     name: 'Netflix',
@@ -62,7 +62,6 @@ const data = [
       "Marvel's Agents of S.H.I.E.L.D.",
       'Stranger Things',
       'Gotham',
-      "Marvel's Jessica Jones",
       'Arrow',
       'Better Call Saul',
       'Queer Eye',
@@ -96,7 +95,6 @@ const data = [
       'Dark Phoenix',
       'Godzilla: King of the Monsters',
       'Spider-Man: Far From Home',
-      'Us',
       'Fast & Furious Presents: Hobbs & Shaw',
       'Hellboy',
       'Alita: Battle Angel',
@@ -164,6 +162,10 @@ const books = [
   {
     series: '',
     titles: ["The Heart of the Buddha's Teaching"],
+  },
+  {
+    series: '',
+    titles: ['Starting Strength'],
   },
 ];
 
