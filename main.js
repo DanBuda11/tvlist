@@ -27,12 +27,13 @@ const data = [
       'Jack Ryan',
       'The Hunt',
       'Mr Robot (Season 3)',
+      'The Boys',
     ],
   },
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Get Out', 'Aquaman'],
+    shows: ['Aquaman'],
   },
   {
     name: 'HBO Go',
@@ -88,8 +89,6 @@ const data = [
     class: 'other',
     shows: [
       'Shazam!',
-      'Captain Marvel',
-      'Avengers: Endgame',
       'John Wick 3',
       'The Walking Dead (Season 9)',
       'Dark Phoenix',
