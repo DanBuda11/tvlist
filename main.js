@@ -51,7 +51,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale", 'Veronica Mars'],
+    shows: ["The Handmaid's Tale", 'Veronica Mars', 'The Strain,],
   },
   {
     name: 'Netflix',
