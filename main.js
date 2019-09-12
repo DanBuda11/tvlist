@@ -70,6 +70,7 @@ const data = [
       'Supergirl',
       'Black Lightning',
       'The Good Place',
+      'GLOW',
     ],
   },
   {
