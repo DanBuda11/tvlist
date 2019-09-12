@@ -26,14 +26,14 @@ const data = [
       'The Man in the High Castle',
       'Jack Ryan',
       'The Hunt',
-      'Mr Robot (Season 3)',
+      'Mr Robot (Seasons 3 & 4)',
       'The Boys',
     ],
   },
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Aquaman'],
+    shows: ['Godzilla, King of the Monsters', 'Alita: Battle Angel', 'Hellboy'],
   },
   {
     name: 'HBO Go',
@@ -71,6 +71,7 @@ const data = [
       'Black Lightning',
       'The Good Place',
       'GLOW',
+      'The Walking Dead (Season 9)',
     ],
   },
   {
@@ -89,15 +90,8 @@ const data = [
     name: 'Other',
     class: 'other',
     shows: [
-      'Shazam!',
       'John Wick 3',
-      'The Walking Dead (Season 9)',
-      'Dark Phoenix',
-      'Godzilla: King of the Monsters',
-      'Spider-Man: Far From Home',
       'Fast & Furious Presents: Hobbs & Shaw',
-      'Hellboy',
-      'Alita: Battle Angel',
     ],
   },
 ];
