@@ -28,6 +28,7 @@ const data = [
       'The Hunt',
       'Mr Robot (Seasons 3 & 4)',
       'The Boys',
+      'Fleabag',
     ],
   },
   {
