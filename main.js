@@ -23,18 +23,18 @@ const data = [
     name: 'Amazon Prime Video',
     class: 'amazon',
     shows: [
-      'The Man in the High Castle',
+      'The Man in the High Castle (start back up mid-season 2. season 4 will be the last season)',
       'Jack Ryan',
-      'The Hunt',
-      'Mr Robot (Seasons 3 & 4)',
+      'The Hunt (not out yet)',
+      'Mr Robot (season 3. season 4 not out yet)',
       'The Boys',
-      'Fleabag',
+      'Fleabag (seasons 1 & 2)',
     ],
   },
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Godzilla, King of the Monsters', 'Alita: Battle Angel', 'Hellboy'],
+    shows: ['Godzilla, King of the Monsters', 'Robin Hood Prince of Thieves'],
   },
   {
     name: 'HBO Go',
@@ -52,7 +52,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale", 'The Strain',],
+    shows: ["The Handmaid's Tale", 'The Strain (start at end of season 1)', 'It\'s Always Sunny in Philadelphia (old episodes)', 'The Venture Bros. (season 6? 7?)', 'Archer (seasons 8 & 9)', 'Fear the Walking Dead (last episode of season 3 thru season 4)'],
   },
   {
     name: 'Netflix',
@@ -70,21 +70,23 @@ const data = [
       'Altered Carbon',
       'Supergirl',
       'Black Lightning',
-      'The Good Place',
       'GLOW',
-      'The Walking Dead (Season 9)',
+      'The Walking Dead',
+      'Narcos',
+      'Narcos: Mexico',
     ],
   },
   {
     name: 'Playstation Vue',
     class: 'vue',
     shows: [
-      'Archer (Season 8+)',
-      'Modern Family',
-      'Rick & Morty',
-      'Fear the Walking Dead (Season 3+)',
-      "It's Always Sunny in Philadelphia",
+      'Modern Family (final season starts Sept. 25)',
+      'Rick & Morty (season 4 starts Nov. 2019)',
+      'Fear the Walking Dead (starting with season 6)',
+      "It's Always Sunny in Philadelphia (new episodes)",
       "Schitt's Creek",
+      'Archer (season 11)',
+      'The Good Place (final season starts Sept. 26)',
     ],
   },
   {
@@ -93,6 +95,8 @@ const data = [
     shows: [
       'John Wick 3',
       'Fast & Furious Presents: Hobbs & Shaw',
+      'Fear the Walking Dead (season 5)',
+      'Archer (season 10)'
     ],
   },
 ];
