@@ -34,7 +34,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Godzilla, King of the Monsters', 'Robin Hood Prince of Thieves'],
+    shows: ['Godzilla, King of the Monsters',],
   },
   {
     name: 'HBO Go',
@@ -46,13 +46,12 @@ const data = [
       'Silicon Valley',
       'The Wire (Season 3+)',
       'Westworld',
-      'Chernobyl',
     ],
   },
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale", 'The Strain (start at end of season 1)', 'It\'s Always Sunny in Philadelphia (old episodes)', 'The Venture Bros. (season 6? 7?)', 'Archer (seasons 8 & 9)', 'Fear the Walking Dead (last episode of season 3 thru season 4)'],
+    shows: ["The Handmaid's Tale", 'The Strain (start at end of season 1)', 'The Venture Bros. (season 6? 7?)', 'Archer (seasons 8 & 9)', 'Fear the Walking Dead (season 4)'],
   },
   {
     name: 'Netflix',
@@ -71,7 +70,6 @@ const data = [
       'Supergirl',
       'Black Lightning',
       'GLOW',
-      'The Walking Dead',
       'Narcos',
       'Narcos: Mexico',
     ],
@@ -80,13 +78,14 @@ const data = [
     name: 'Playstation Vue',
     class: 'vue',
     shows: [
-      'Modern Family (final season starts Sept. 25)',
+      'Modern Family',
       'Rick & Morty (season 4 starts Nov. 2019)',
-      'Fear the Walking Dead (starting with season 6)',
-      "It's Always Sunny in Philadelphia (new episodes)",
+      'Fear the Walking Dead (season 6)',
+      "It's Always Sunny in Philadelphia",
       "Schitt's Creek",
       'Archer (season 11)',
-      'The Good Place (final season starts Sept. 26)',
+      'The Good Place',
+      'The Walking Dead',
     ],
   },
   {
@@ -95,7 +94,7 @@ const data = [
     shows: [
       'John Wick 3',
       'Fast & Furious Presents: Hobbs & Shaw',
-      'Fear the Walking Dead (season 5)',
+      'Fear the Walking Dead (season 5 on AMC)',
       'Archer (season 10)'
     ],
   },
