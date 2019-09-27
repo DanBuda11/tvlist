@@ -95,7 +95,8 @@ const data = [
       'John Wick 3',
       'Fast & Furious Presents: Hobbs & Shaw',
       'Fear the Walking Dead (season 5 on AMC)',
-      'Archer (season 10)'
+      'Archer (season 10)',
+      'Star Trek: Discovery',
     ],
   },
 ];
