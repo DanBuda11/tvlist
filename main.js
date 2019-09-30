@@ -34,7 +34,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Godzilla, King of the Monsters',],
+    shows: ['Godzilla, King of the Monsters', 'Rocketman',],
   },
   {
     name: 'HBO Go',
@@ -51,7 +51,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale", 'The Strain (start at end of season 1)', 'The Venture Bros. (season 6? 7?)', 'Archer (seasons 8 & 9)', 'Fear the Walking Dead (season 4)'],
+    shows: ["The Handmaid's Tale", 'The Strain (start at end of season 1)', 'The Venture Bros. (season 6? 7?)', 'Archer (seasons 8 & 9)', "Marvel's Runaways",],
   },
   {
     name: 'Netflix',
@@ -72,6 +72,12 @@ const data = [
       'GLOW',
       'Narcos',
       'Narcos: Mexico',
+      'Star Trek',
+      'Star Trek: The Animated Series',
+      'Star Trek: The Next Generation',
+      'Star Trek: Deep Space Nine',
+      'Star Trek: Voyager',
+      'Star Trek: Enterprise',
     ],
   },
   {
