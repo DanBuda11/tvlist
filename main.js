@@ -34,7 +34,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Godzilla, King of the Monsters', 'Rocketman',],
+    shows: ['Rocketman',],
   },
   {
     name: 'HBO Go',
@@ -86,7 +86,7 @@ const data = [
     shows: [
       'Modern Family',
       'Rick & Morty (season 4 starts Nov. 2019)',
-      'Fear the Walking Dead (season 6)',
+      'Fear the Walking Dead',
       "It's Always Sunny in Philadelphia",
       "Schitt's Creek",
       'Archer (season 11)',
@@ -100,9 +100,9 @@ const data = [
     shows: [
       'John Wick 3',
       'Fast & Furious Presents: Hobbs & Shaw',
-      'Fear the Walking Dead (season 5 on AMC)',
       'Archer (season 10)',
       'Star Trek: Discovery',
+      'Batwoman',
     ],
   },
 ];
