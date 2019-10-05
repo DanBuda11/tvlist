@@ -51,7 +51,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale", 'The Strain (start at end of season 1)', 'The Venture Bros. (season 6? 7?)', 'Archer (seasons 8 & 9)', "Marvel's Runaways",],
+    shows: ["The Handmaid's Tale", 'The Strain (start at end of season 1)', 'The Venture Bros. (season 6? 7?)', "Marvel's Runaways",],
   },
   {
     name: 'Netflix',
