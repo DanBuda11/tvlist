@@ -23,7 +23,7 @@ const data = [
     name: 'Amazon Prime Video',
     class: 'amazon',
     shows: [
-      'The Man in the High Castle (start back up mid-season 2. season 4 will be the last season)',
+      'The Man in the High Castle (start back up mid-season 2)',
       'Jack Ryan',
       'The Hunt (not out yet)',
       'Mr Robot (season 3. season 4 not out yet)',
@@ -46,6 +46,7 @@ const data = [
       'Silicon Valley',
       'The Wire (Season 3+)',
       'Westworld',
+      'Watchmen',
     ],
   },
   {
@@ -78,6 +79,7 @@ const data = [
       'Star Trek: Deep Space Nine',
       'Star Trek: Voyager',
       'Star Trek: Enterprise',
+      'Mindhunter',
     ],
   },
   {
