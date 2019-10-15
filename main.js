@@ -34,7 +34,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Rocketman',],
+    shows: ['Rocketman',' John Wick Chapter 3',],
   },
   {
     name: 'HBO Go',
@@ -100,9 +100,7 @@ const data = [
     name: 'Other',
     class: 'other',
     shows: [
-      'John Wick 3',
       'Fast & Furious Presents: Hobbs & Shaw',
-      'Archer (season 10)',
       'Star Trek: Discovery',
       'Batwoman',
     ],
