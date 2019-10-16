@@ -23,18 +23,18 @@ const data = [
     name: 'Amazon Prime Video',
     class: 'amazon',
     shows: [
-      'The Man in the High Castle (start back up mid-season 2)',
+      'The Man in the High Castle (mid-season 2)',
       'Jack Ryan',
-      'The Hunt (not out yet)',
-      'Mr Robot (season 3. season 4 not out yet)',
+      'The Hunt',
+      'Mr Robot (season 3+)',
       'The Boys',
-      'Fleabag (seasons 1 & 2)',
+      'Fleabag',
     ],
   },
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Rocketman',' John Wick Chapter 3',],
+    shows: ['Rocketman',' John Wick: Chapter 3',],
   },
   {
     name: 'HBO Go',
@@ -52,7 +52,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale", 'The Strain (start at end of season 1)', 'The Venture Bros. (season 6? 7?)', "Marvel's Runaways",],
+    shows: ["The Handmaid's Tale", 'The Strain', 'The Venture Bros. (season 6?)', "Marvel's Runaways",],
   },
   {
     name: 'Netflix',
@@ -87,11 +87,11 @@ const data = [
     class: 'vue',
     shows: [
       'Modern Family',
-      'Rick & Morty (season 4 starts Nov. 2019)',
+      'Rick & Morty',
       'Fear the Walking Dead',
       "It's Always Sunny in Philadelphia",
       "Schitt's Creek",
-      'Archer (season 11)',
+      'Archer',
       'The Good Place',
       'The Walking Dead',
     ],
