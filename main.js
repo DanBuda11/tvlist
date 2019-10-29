@@ -34,7 +34,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Rocketman',' John Wick: Chapter 3',],
+    shows: ['John Wick: Chapter 3',],
   },
   {
     name: 'HBO Go',
@@ -63,7 +63,6 @@ const data = [
       "Marvel's The Punisher",
       "Marvel's Agents of S.H.I.E.L.D.",
       'Stranger Things',
-      'Gotham',
       'Arrow',
       'Better Call Saul',
       'Queer Eye',
@@ -71,7 +70,6 @@ const data = [
       'Supergirl',
       'Black Lightning',
       'GLOW',
-      'Narcos',
       'Narcos: Mexico',
       'Star Trek',
       'Star Trek: The Animated Series',
