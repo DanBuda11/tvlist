@@ -111,7 +111,6 @@ const data = [
     name: 'Other',
     class: 'other',
     shows: [
-      
       'Star Trek: Discovery',
       'Batwoman',
     ],
