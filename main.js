@@ -34,7 +34,20 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['John Wick: Chapter 3',],
+    shows: ['John Wick: Chapter 3', 'Yesterday', 'Fast & Furious Presents: Hobbs & Shaw',],
+  },
+  {
+    name: 'Disney Plus',
+    class: 'disneyplus',
+    shows: [
+      'Runaways',
+      'Inhumans',
+      'Tron Uprising',
+      'Agent Carter',
+      'Star Wars Resistance',
+      'Star Wars Rebels',
+      'The Mandalorian',
+    ]
   },
   {
     name: 'HBO Go',
@@ -52,7 +65,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ["The Handmaid's Tale", 'The Strain', 'The Venture Bros. (season 6?)', "Marvel's Runaways",],
+    shows: ['The Strain', 'The Venture Bros. (season 6?)',],
   },
   {
     name: 'Netflix',
@@ -60,7 +73,6 @@ const data = [
     shows: [
       'The Flash',
       "DC's Legends of Tommorrow",
-      "Marvel's The Punisher",
       "Marvel's Agents of S.H.I.E.L.D.",
       'Stranger Things',
       'Arrow',
@@ -94,11 +106,12 @@ const data = [
       'The Walking Dead',
     ],
   },
+  
   {
     name: 'Other',
     class: 'other',
     shows: [
-      'Fast & Furious Presents: Hobbs & Shaw',
+      
       'Star Trek: Discovery',
       'Batwoman',
     ],
