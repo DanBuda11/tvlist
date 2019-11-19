@@ -66,7 +66,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['The Strain', 'The Venture Bros. (season 6?)',],
+    shows: ['The Strain',],
   },
   {
     name: 'Netflix',
@@ -91,6 +91,7 @@ const data = [
       'Star Trek: Voyager',
       'Star Trek: Enterprise',
       'Mindhunter',
+      'The Crown',
     ],
   },
   {
@@ -105,6 +106,7 @@ const data = [
       'Archer',
       'The Good Place',
       'The Walking Dead',
+      'The Venture Bros.',
     ],
   },
   
