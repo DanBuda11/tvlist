@@ -21,10 +21,11 @@ body {
 
 .btn i {
   margin: 0;
-  text-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-.header, .footer {
+.header,
+.footer {
   background-color: #235789;
   color: #fff;
 }
@@ -38,27 +39,31 @@ h1 {
 }
 
 #main {
-  padding: 1em 2em;
+  padding: 1rem 2rem;
   overflow: hidden;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
-.channelContainer, .bookSeries {
-  padding: 1em;
+.channelContainer,
+.bookSeries {
+  padding: 1rem;
   border-bottom: 1px solid #000;
 }
 
-.channelContainer:last-of-type, .bookSeries:last-of-type {
+.channelContainer:last-of-type,
+.bookSeries:last-of-type {
   border: none;
 }
 
 h2 {
-  margin: 0 0 0.3em 0;
+  margin: 0 0 0.3rem 0;
+  font-size: 26px;
 }
 
 h3 {
-  margin: 0 0 0.3em 0;
+  margin: 0 0 0.3rem 0;
+  font-size: 20px;
 }
 
 .netflix {
@@ -66,7 +71,7 @@ h3 {
 }
 
 .hulu {
-  color: #3DBB3D;
+  color: #3dbb3d;
 }
 
 .amazon {
@@ -74,19 +79,27 @@ h3 {
 }
 
 .hbo {
-  color: #0F0F0F;
+  color: #0f0f0f;
 }
 
 .library {
-  color: #0E6AA8;
+  color: #0e6aa8;
 }
 
 .vue {
-  color: #1275B0;
+  color: #1275b0;
 }
 
 .disneyplus {
-  color: #16265F;
+  color: #16265f;
+}
+
+.cbs {
+  color: #0e60d0;
+}
+
+.cw {
+  color: #2ca8a8;
 }
 
 ul {
@@ -97,11 +110,15 @@ ul {
 
 li {
   font-style: italic;
-  line-height: 1.25em;
+  line-height: 1.5rem;
 }
 
 .footer {
   text-align: center;
-  padding: 1em;
+  padding: 1rem;
   font-weight: bold;
+}
+
+.footer a {
+  color: #fff;
 }

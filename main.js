@@ -25,7 +25,7 @@ const data = [
     shows: [
       'The Man in the High Castle (mid-season 2)',
       'Jack Ryan',
-      'The Hunt',
+      'Hunters',
       'Mr Robot (season 3+)',
       'The Boys',
       'Fleabag',
@@ -34,7 +34,17 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['John Wick: Chapter 3', 'Yesterday', 'Fast & Furious Presents: Hobbs & Shaw',],
+    shows: ['Yesterday', 'Fast & Furious Presents: Hobbs & Shaw',],
+  },
+  {
+    name: 'CBS All Access',
+    class: 'cbs',
+    shows: ['Star Trek: Picard', 'Star Trek: Discovery',],
+  },
+  {
+    name: 'The CW',
+    class: 'cw',
+    shows: ['Batwoman',],
   },
   {
     name: 'Disney Plus',
@@ -113,10 +123,7 @@ const data = [
   {
     name: 'Other',
     class: 'other',
-    shows: [
-      'Star Trek: Discovery',
-      'Batwoman',
-    ],
+    shows: [],
   },
 ];
 
@@ -191,7 +198,8 @@ const books = [
 function renderShows(data) {
   // Work with each tv channel one at a time
   data.forEach(channel => {
-    // This array to store html with h2 for title, and all shows as li within a ul
+    if (channel.shows.length > 0) {
+      // This array to store html with h2 for title, and all shows as li within a ul
     let channelData = [];
     // Create the h2 element for the channel name and include a link if it exists
 
@@ -217,6 +225,7 @@ function renderShows(data) {
     channelData.push('</ul></div>');
     // Push everything into the master array with all html data
     return allData.push(channelData.join(''));
+    }
   });
   // Render all mapped data to the screen
   main.innerHTML = allData.join('');
