@@ -34,7 +34,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Yesterday', 'Fast & Furious Presents: Hobbs & Shaw',],
+    shows: [],
   },
   {
     name: 'CBS All Access',
@@ -66,11 +66,10 @@ const data = [
     link: 'https://play.hbogo.com/',
     shows: [
       'Barry',
-      'Silicon Valley',
       'The Wire (Season 3+)',
       'Westworld',
-      'Watchmen',
       'His Dark Materials',
+      'Succession',
     ],
   },
   {
@@ -102,6 +101,10 @@ const data = [
       'Star Trek: Enterprise',
       'Mindhunter',
       'The Crown',
+      'Forks Over Knives',
+      'The Magic Pill',
+      'Explained',
+      'El Camino: A Breaking Bad Movie',
     ],
   },
   {
@@ -114,9 +117,9 @@ const data = [
       "It's Always Sunny in Philadelphia",
       "Schitt's Creek",
       'Archer',
-      'The Good Place',
       'The Walking Dead',
       'The Venture Bros.',
+      'The Good Place',
     ],
   },
   
