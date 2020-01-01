@@ -29,12 +29,13 @@ const data = [
       'Mr Robot (season 3+)',
       'The Boys',
       'Fleabag',
+      'Star Trek The Animated Series',
     ],
   },
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: [],
+    shows: ['Ad Astra', 'Angel Has Fallen',],
   },
   {
     name: 'CBS All Access',
@@ -52,10 +53,8 @@ const data = [
     shows: [
       'Runaways',
       'Inhumans',
-      'Tron Uprising',
       'Agent Carter',
       'Star Wars Resistance',
-      'Star Wars Rebels',
       'The Mandalorian',
     ]
   },
@@ -94,15 +93,12 @@ const data = [
       'GLOW',
       'Narcos: Mexico',
       'Star Trek',
-      'Star Trek: The Animated Series',
       'Star Trek: The Next Generation',
       'Star Trek: Deep Space Nine',
       'Star Trek: Voyager',
       'Star Trek: Enterprise',
       'Mindhunter',
       'The Crown',
-      'Forks Over Knives',
-      'The Magic Pill',
       'Explained',
       'El Camino: A Breaking Bad Movie',
     ],
@@ -126,7 +122,7 @@ const data = [
   {
     name: 'Other',
     class: 'other',
-    shows: [],
+    shows: ['Joker', 'Jumanji: The Next Level', 'Zombieland: Double Tap',],
   },
 ];
 
