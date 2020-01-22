@@ -73,7 +73,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['The Strain',],
+    shows: ['The Strain', 'Marvel\'s Cloak & Dagger',],
   },
   {
     name: 'Netflix',
@@ -94,7 +94,6 @@ const data = [
       'Mindhunter',
       'The Crown',
       'Explained',
-      'El Camino: A Breaking Bad Movie',
     ],
   },
   {
