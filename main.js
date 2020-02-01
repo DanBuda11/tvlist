@@ -73,7 +73,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['The Strain', 'Marvel\'s Cloak & Dagger',],
+    shows: ['The Strain', 'Marvel\'s Cloak & Dagger', 'Archer - thru S10', 'It\'s Always Sunny in Philadelphia - thru S14', 'Modern Family - thru S11E12',],
   },
   {
     name: 'Netflix',
@@ -94,24 +94,19 @@ const data = [
       'Mindhunter',
       'The Crown',
       'Explained',
+      "Schitt's Creek - thru S6E3",
     ],
   },
   {
-    name: 'Playstation Vue',
-    class: 'vue',
+    name: 'Sling TV',
+    class: 'slingtv',
     shows: [
-      'Modern Family - thru S11E12',
-      'Rick & Morty - thru S4E5',
       'Fear the Walking Dead - thru S5',
-      "It's Always Sunny in Philadelphia - thru S14",
-      "Schitt's Creek - thru S6E3",
-      'Archer - thru S10',
-      'The Walking Dead - thru S10E8',
+      'Rick & Morty - thru S4E5',
       'The Venture Bros. - thru S7E10',
-      'The Good Place - thru S4E12',
-    ],
+      'The Walking Dead - thru S10E8',
+    ]
   },
-  
   {
     name: 'Other',
     class: 'other',
