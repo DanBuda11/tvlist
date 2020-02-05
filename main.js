@@ -91,10 +91,11 @@ const data = [
       'Black Lightning',
       'GLOW',
       'Narcos: Mexico',
-      'Mindhunter',
+      'MINDHUNTER',
       'The Crown',
       'Explained',
       "Schitt's Creek - thru S6E3",
+      'The Witcher',
     ],
   },
   {
