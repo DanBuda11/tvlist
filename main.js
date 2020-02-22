@@ -34,7 +34,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Ad Astra', 'Angel Has Fallen',],
+    shows: ['Ad Astra',],
   },
   {
     name: 'CBS All Access',
@@ -50,7 +50,7 @@ const data = [
     name: 'Disney Plus',
     class: 'disneyplus',
     shows: [
-      'Runaways',
+      'Star Wars: The Clone Wars',
       'Inhumans',
       'Agent Carter',
       'Star Wars Resistance',
