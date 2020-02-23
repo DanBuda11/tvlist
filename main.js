@@ -28,13 +28,12 @@ const data = [
       'Hunters',
       'Mr Robot',
       'The Boys',
-      'Fleabag',
     ],
   },
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Ad Astra',],
+    shows: ['Ad Astra', 'Joker', 'Zombieland: Double Tap',],
   },
   {
     name: 'CBS All Access',
@@ -111,7 +110,7 @@ const data = [
   {
     name: 'Other',
     class: 'other',
-    shows: ['Joker', 'Jumanji: The Next Level', 'Zombieland: Double Tap',],
+    shows: ['Jumanji: The Next Level',],
   },
 ];
 
