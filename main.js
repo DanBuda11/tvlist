@@ -33,7 +33,7 @@ const data = [
   {
     name: 'Austin Public Library',
     class: 'library',
-    shows: ['Ad Astra', 'Joker', 'Zombieland: Double Tap',],
+    shows: [],
   },
   {
     name: 'CBS All Access',
@@ -95,6 +95,8 @@ const data = [
       'Explained',
       "Schitt's Creek - thru S6E3",
       'The Witcher',
+      'The Irishman',
+      'Castlevania',
     ],
   },
   {
@@ -110,7 +112,7 @@ const data = [
   {
     name: 'Other',
     class: 'other',
-    shows: ['Jumanji: The Next Level',],
+    shows: ['Jumanji: The Next Level', 'Zombieland: Double Tap', 'Joker',],
   },
 ];
 
