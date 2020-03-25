@@ -50,7 +50,6 @@ const data = [
     class: 'disneyplus',
     shows: [
       'Star Wars: The Clone Wars',
-      'Inhumans',
       'Agent Carter',
       'Star Wars Resistance',
       'The Mandalorian',
@@ -97,6 +96,7 @@ const data = [
       'The Witcher',
       'The Irishman',
       'Castlevania',
+      'Dirty Money',
     ],
   },
   {
@@ -105,8 +105,8 @@ const data = [
     shows: [
       'Fear the Walking Dead - thru S5',
       'Rick & Morty - thru S4E5',
-      'The Venture Bros. - thru S7E10',
-      'The Walking Dead - thru S10E8',
+      'The Venture Bros. - thru S7',
+      'The Walking Dead - thru S10E13',
     ]
   },
   {
