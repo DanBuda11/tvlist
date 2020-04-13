@@ -51,7 +51,6 @@ const data = [
     shows: [
       'Star Wars: The Clone Wars',
       'Agent Carter',
-      'Star Wars Resistance',
       'The Mandalorian',
     ]
   },
@@ -71,7 +70,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['The Strain', 'Marvel\'s Cloak & Dagger', 'Archer - thru S10', 'It\'s Always Sunny in Philadelphia - thru S14', 'Modern Family - thru S11E12',],
+    shows: ['The Strain', 'Marvel\'s Cloak & Dagger', 'Archer - thru S10', 'It\'s Always Sunny in Philadelphia - thru S14',],
   },
   {
     name: 'Netflix',
@@ -97,7 +96,6 @@ const data = [
       'The Irishman',
       'Castlevania',
       'Dirty Money',
-      'Community',
     ],
   },
   {
