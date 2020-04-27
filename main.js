@@ -65,6 +65,7 @@ const data = [
       'Westworld',
       'His Dark Materials',
       'Succession',
+      'Plot Against America',
     ],
   },
   {
@@ -96,6 +97,7 @@ const data = [
       'The Irishman',
       'Castlevania',
       'Dirty Money',
+      'Ozark',
     ],
   },
   {
