@@ -71,7 +71,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['The Strain', 'Marvel\'s Cloak & Dagger', 'Archer - thru S10', 'It\'s Always Sunny in Philadelphia - thru S14',],
+    shows: ['The Strain', 'Marvel\'s Cloak & Dagger', 'Archer - thru S10', 'It\'s Always Sunny in Philadelphia - thru S14', 'Brockmire',],
   },
   {
     name: 'Netflix',
@@ -98,6 +98,7 @@ const data = [
       'Castlevania',
       'Dirty Money',
       'Ozark',
+      'The Last Dance',
     ],
   },
   {
