@@ -38,40 +38,36 @@ const data = [
   {
     name: 'CBS All Access',
     class: 'cbs',
-    shows: ['Star Trek: Picard', 'Star Trek: Discovery',],
+    shows: ['Star Trek: Picard', 'Star Trek: Discovery'],
   },
   {
     name: 'The CW',
     class: 'cw',
-    shows: ['Batwoman',],
+    shows: ['Batwoman'],
   },
   {
     name: 'Disney Plus',
     class: 'disneyplus',
-    shows: [
-      'Star Wars: The Clone Wars',
-      'Agent Carter',
-      'The Mandalorian',
-    ]
+    shows: ['Star Wars: The Clone Wars', 'Agent Carter', 'The Mandalorian'],
   },
   {
     name: 'HBO Go',
     class: 'hbo',
     image: 'hbogo.png',
     link: 'https://play.hbogo.com/',
-    shows: [
-      'Barry',
-      'The Wire (Season 3+)',
-      'Westworld',
-      'His Dark Materials',
-      'Succession',
-      'Plot Against America',
-    ],
+    shows: ['Barry', 'Westworld', 'His Dark Materials', 'Succession'],
   },
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['The Strain', 'Marvel\'s Cloak & Dagger', 'Archer - thru S10', 'It\'s Always Sunny in Philadelphia - thru S14', 'Brockmire',],
+    shows: [
+      'The Strain',
+      "Marvel's Cloak & Dagger",
+      'Archer - thru S10',
+      "It's Always Sunny in Philadelphia - thru S14",
+      'Brockmire',
+      'Parasite',
+    ],
   },
   {
     name: 'Netflix',
@@ -99,6 +95,7 @@ const data = [
       'Dirty Money',
       'Ozark',
       'The Last Dance',
+      'Giri/Haji',
     ],
   },
   {
@@ -109,12 +106,12 @@ const data = [
       'Rick & Morty - thru S4E5',
       'The Venture Bros. - thru S7',
       'The Walking Dead - thru S10E13',
-    ]
+    ],
   },
   {
     name: 'Other',
     class: 'other',
-    shows: ['Jumanji: The Next Level', 'Zombieland: Double Tap', 'Joker',],
+    shows: ['Jumanji: The Next Level', 'Zombieland: Double Tap'],
   },
 ];
 
@@ -188,34 +185,32 @@ const books = [
 // Function to interate over all data and do all the work
 function renderShows(data) {
   // Work with each tv channel one at a time
-  data.forEach(channel => {
+  data.forEach((channel) => {
     if (channel.shows.length > 0) {
       // This array to store html with h2 for title, and all shows as li within a ul
-    let channelData = [];
-    // Create the h2 element for the channel name and include a link if it exists
+      const channelData = [];
+      // Create the h2 element for the channel name and include a link if it exists
 
-    const channelName = `<div class="channelContainer"><h2 class=${
-      channel.class
-    }>${channel.name}</h2>`;
+      const channelName = `<div class="channelContainer"><h2 class=${channel.class}>${channel.name}</h2>`;
 
-    // Push the 1st half of the ul tag with class name into the array
-    channelData.push(`${channelName}<ul class='${channel.class}list'>`);
-    // Sort each show in the channel's shows alphabetically without "a", "an", "the".
-    function strip(show) {
-      return show.replace(/^(a |the |an )/i, '').trim();
-    }
-    const sortedShows = channel.shows.sort((a, b) =>
-      strip(a) > strip(b) ? 1 : -1
-    );
+      // Push the 1st half of the ul tag with class name into the array
+      channelData.push(`${channelName}<ul class='${channel.class}list'>`);
+      // Sort each show in the channel's shows alphabetically without "a", "an", "the".
+      function strip(show) {
+        return show.replace(/^(a |the |an )/i, '').trim();
+      }
+      const sortedShows = channel.shows.sort((a, b) =>
+        strip(a) > strip(b) ? 1 : -1,
+      );
 
-    // Iterate over each show in the shows array and push into the array with an li tag
-    sortedShows.forEach(show => {
-      channelData.push(`<li>${show}</li>`);
-    });
-    // Wrap the end of the array with the closing ul tag
-    channelData.push('</ul></div>');
-    // Push everything into the master array with all html data
-    return allData.push(channelData.join(''));
+      // Iterate over each show in the shows array and push into the array with an li tag
+      sortedShows.forEach((show) => {
+        channelData.push(`<li>${show}</li>`);
+      });
+      // Wrap the end of the array with the closing ul tag
+      channelData.push('</ul></div>');
+      // Push everything into the master array with all html data
+      return allData.push(channelData.join(''));
     }
   });
   // Render all mapped data to the screen
@@ -224,10 +219,10 @@ function renderShows(data) {
 }
 
 function renderBooks(books) {
-  books.map(book => {
+  books.map((book) => {
     if (book.series !== '') {
       allData.push(`<ul class="bookSeries"><li><h3>${book.series}</h3></li>`);
-      book.titles.map(title => {
+      book.titles.map((title) => {
         allData.push(`<li>${title}</li>`);
       });
       allData.push('</ul>');
