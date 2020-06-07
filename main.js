@@ -22,13 +22,7 @@ const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: [
-      'The Man in the High Castle',
-      'Jack Ryan',
-      'Hunters',
-      'Mr Robot',
-      'The Boys',
-    ],
+    shows: ['The Man in the High Castle', 'Jack Ryan', 'Hunters', 'The Boys'],
   },
   {
     name: 'Austin Public Library',
@@ -65,8 +59,8 @@ const data = [
       "Marvel's Cloak & Dagger",
       'Archer - thru S10',
       "It's Always Sunny in Philadelphia - thru S14",
-      'Brockmire',
-      'Parasite',
+      'Brockmire - S4',
+      'Mr. Robot - S4',
     ],
   },
   {
@@ -103,7 +97,7 @@ const data = [
     class: 'slingtv',
     shows: [
       'Fear the Walking Dead - thru S5',
-      'Rick & Morty - thru S4E5',
+      'Rick & Morty - thru S4',
       'The Venture Bros. - thru S7',
       'The Walking Dead - thru S10E13',
     ],
