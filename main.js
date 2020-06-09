@@ -60,8 +60,7 @@ const data = [
       'Archer - thru S10',
       "It's Always Sunny in Philadelphia - thru S14",
       'Brockmire - S4',
-      'Mr. Robot - S4',
-    ],
+   ],
   },
   {
     name: 'Netflix',
