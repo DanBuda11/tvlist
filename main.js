@@ -22,7 +22,13 @@ const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: ['The Man in the High Castle', 'Jack Ryan', 'Hunters', 'The Boys'],
+    shows: [
+      'The Man in the High Castle',
+      'Jack Ryan',
+      'Hunters',
+      'The Boys',
+      'Just Mercy',
+    ],
   },
   {
     name: 'Austin Public Library',
@@ -88,7 +94,7 @@ const data = [
       'Castlevania',
       'Dirty Money',
       'Ozark',
-      'The Last Dance',
+      'Epstein',
       'Giri/Haji',
     ],
   },
@@ -100,6 +106,7 @@ const data = [
       'Rick & Morty - thru S4',
       'The Venture Bros. - thru S7',
       'The Walking Dead - thru S10E13',
+      'The Last Dance',
     ],
   },
   {
