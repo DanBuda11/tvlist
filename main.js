@@ -22,13 +22,7 @@ const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: [
-      'The Man in the High Castle',
-      'Jack Ryan',
-      'Hunters',
-      'The Boys',
-      'Just Mercy',
-    ],
+    shows: ['Jack Ryan', 'Hunters', 'The Boys'],
   },
   {
     name: 'Austin Public Library',
@@ -48,7 +42,7 @@ const data = [
   {
     name: 'Disney Plus',
     class: 'disneyplus',
-    shows: ['Star Wars: The Clone Wars', 'Agent Carter', 'The Mandalorian'],
+    shows: ['Agent Carter', 'The Mandalorian'],
   },
   {
     name: 'HBO Go',
@@ -66,7 +60,7 @@ const data = [
       'Archer - thru S10',
       "It's Always Sunny in Philadelphia - thru S14",
       'Brockmire - S4',
-   ],
+    ],
   },
   {
     name: 'Netflix',
@@ -93,7 +87,6 @@ const data = [
       'Castlevania',
       'Dirty Money',
       'Ozark',
-      'Epstein',
       'Giri/Haji',
     ],
   },
