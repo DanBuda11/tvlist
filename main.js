@@ -6,23 +6,11 @@ const btnIcon = document.querySelector('.fas');
 // Create empty array to store data (push) each time a data item is mapped over
 let allData = [];
 
-btn.addEventListener('click', () => {
-  if (btnIcon.classList.contains('fa-book')) {
-    btnIcon.classList.add('fa-tv');
-    btnIcon.classList.remove('fa-book');
-    renderBooks(books);
-  } else {
-    btnIcon.classList.remove('fa-tv');
-    btnIcon.classList.add('fa-book');
-    renderShows(data);
-  }
-});
-
 const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: ['Jack Ryan', 'Hunters', 'The Boys'],
+    shows: ['Jack Ryan', 'Hunters', 'The Boys', 'Upload'],
   },
   {
     name: 'Austin Public Library',
@@ -55,11 +43,10 @@ const data = [
     name: 'Hulu',
     class: 'hulu',
     shows: [
-      'The Strain',
       "Marvel's Cloak & Dagger",
       'Archer - thru S10',
       "It's Always Sunny in Philadelphia - thru S14",
-      'Brockmire - S4',
+      'Brockmire',
     ],
   },
   {
@@ -88,6 +75,7 @@ const data = [
       'Dirty Money',
       'Ozark',
       'Giri/Haji',
+      'The Last Dance',
     ],
   },
   {
@@ -98,7 +86,6 @@ const data = [
       'Rick & Morty - thru S4',
       'The Venture Bros. - thru S7',
       'The Walking Dead - thru S10E13',
-      'The Last Dance',
     ],
   },
   {
@@ -226,6 +213,18 @@ function renderBooks(books) {
   main.innerHTML = allData.join('');
   allData = [];
 }
+
+btn.addEventListener('click', () => {
+  if (btnIcon.classList.contains('fa-book')) {
+    btnIcon.classList.add('fa-tv');
+    btnIcon.classList.remove('fa-book');
+    renderBooks(books);
+  } else {
+    btnIcon.classList.remove('fa-tv');
+    btnIcon.classList.add('fa-book');
+    renderShows(data);
+  }
+});
 
 // Run the function for initial render
 renderShows(data);
