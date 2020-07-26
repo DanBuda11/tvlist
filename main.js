@@ -10,7 +10,7 @@ const data = [
   {
     name: 'Amazon Prime Video',
     class: 'amazon',
-    shows: ['Jack Ryan', 'Hunters', 'The Boys', 'Upload'],
+    shows: ['Jack Ryan', 'Hunters', 'The Boys', 'Upload', 'Undone'],
   },
   {
     name: 'Austin Public Library',
@@ -33,11 +33,16 @@ const data = [
     shows: ['Agent Carter', 'The Mandalorian'],
   },
   {
-    name: 'HBO Go',
+    name: 'HBO Max',
     class: 'hbo',
     image: 'hbogo.png',
-    link: 'https://play.hbogo.com/',
-    shows: ['Barry', 'Westworld', 'His Dark Materials', 'Succession'],
+    shows: [
+      'Barry',
+      'Westworld',
+      'His Dark Materials',
+      'Succession',
+      'Perry Mason',
+    ],
   },
   {
     name: 'Hulu',
@@ -76,7 +81,20 @@ const data = [
       'Ozark',
       'Giri/Haji',
       'The Last Dance',
+      'The Old Guard',
+      'Black Mirror',
+      'Dark',
+      'Middleditch & Schwartz',
+      'Eurovision Song Contest: The Story of Fire Saga',
+      'The Umbrella Academy',
+      'Athlete A',
+      'Patriot Act with Hasan Minhaj',
     ],
+  },
+  {
+    name: 'Peacock',
+    class: 'peacock',
+    shows: [],
   },
   {
     name: 'Sling TV',
@@ -169,7 +187,7 @@ function renderShows(data) {
     if (channel.shows.length > 0) {
       // This array to store html with h2 for title, and all shows as li within a ul
       const channelData = [];
-      // Create the h2 element for the channel name and include a link if it exists
+      // Create the h2 element for the channel name
 
       const channelName = `<div class="channelContainer"><h2 class=${channel.class}>${channel.name}</h2>`;
 

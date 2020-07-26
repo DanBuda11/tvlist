@@ -79,7 +79,7 @@ h3 {
 }
 
 .hbo {
-  color: #0f0f0f;
+  color: #c400fd;
 }
 
 .library {
@@ -100,6 +100,10 @@ h3 {
 
 .cw {
   color: #2ca8a8;
+}
+
+.peacock {
+  color: #fda002;
 }
 
 ul {
