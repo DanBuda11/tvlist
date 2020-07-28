@@ -48,10 +48,8 @@ const data = [
     name: 'Hulu',
     class: 'hulu',
     shows: [
-      "Marvel's Cloak & Dagger",
       'Archer - thru S10',
       "It's Always Sunny in Philadelphia - thru S14",
-      'Brockmire',
     ],
   },
   {
