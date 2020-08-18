@@ -86,7 +86,6 @@ const data = [
       'Eurovision Song Contest: The Story of Fire Saga',
       'The Umbrella Academy',
       'Athlete A',
-      'Patriot Act with Hasan Minhaj',
     ],
   },
   {
