@@ -42,6 +42,7 @@ const data = [
       'His Dark Materials',
       'Succession',
       'Perry Mason',
+      'Lovecraft Country',
     ],
   },
   {
