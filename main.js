@@ -8,7 +8,7 @@ let allData = [];
 
 const data = [
   {
-    name: 'Amazon Prime Video',
+    name: 'Amazon Prime',
     class: 'amazon',
     shows: ['Jack Ryan', 'Hunters', 'The Boys', 'Upload', 'Undone'],
   },
@@ -23,14 +23,18 @@ const data = [
     shows: ['Star Trek: Picard', 'Star Trek: Discovery'],
   },
   {
-    name: 'The CW',
-    class: 'cw',
-    shows: ['Batwoman'],
-  },
-  {
     name: 'Disney Plus',
     class: 'disneyplus',
-    shows: ['Agent Carter', 'The Mandalorian'],
+    shows: [
+      'Agent Carter',
+      'The Mandalorian',
+      'Aladdin',
+      'Moana',
+      'Frozen II',
+      'Toy Story 4',
+      'Finding Dory',
+      'Muppets Now',
+    ],
   },
   {
     name: 'HBO Max',
@@ -43,15 +47,16 @@ const data = [
       'Succession',
       'Perry Mason',
       'Lovecraft Country',
+      'Batwoman',
+      'The Way Back',
+      'Jojo Rabbit',
+      'Raised by Wolves',
     ],
   },
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: [
-      'Archer - thru S10',
-      "It's Always Sunny in Philadelphia - thru S14",
-    ],
+    shows: [],
   },
   {
     name: 'Netflix',
@@ -72,7 +77,6 @@ const data = [
       'MINDHUNTER',
       'The Crown',
       'Explained',
-      "Schitt's Creek - thru S6E3",
       'The Witcher',
       'The Irishman',
       'Castlevania',
@@ -84,9 +88,13 @@ const data = [
       'Black Mirror',
       'Dark',
       'Middleditch & Schwartz',
-      'Eurovision Song Contest: The Story of Fire Saga',
       'The Umbrella Academy',
       'Athlete A',
+      'Hot Date',
+      'High Score',
+      'Cobra Kai',
+      'Transformers: War for Cybertron',
+      'Avatar: The Last Airbender',
     ],
   },
   {
@@ -95,19 +103,28 @@ const data = [
     shows: [],
   },
   {
-    name: 'Sling TV',
-    class: 'slingtv',
+    name: 'Starz',
+    class: 'starz',
+    shows: ['Jumanji: The Next Level', 'Zombieland: Double Tap'],
+  },
+  {
+    name: 'YouTube TV',
+    class: 'youtubetv',
     shows: [
       'Fear the Walking Dead - thru S5',
       'Rick & Morty - thru S4',
       'The Venture Bros. - thru S7',
       'The Walking Dead - thru S10E13',
+      "Schitt's Creek - thru S6E7",
+      'Archer - thru S10',
+      "It's Always Sunny in Philadelphia - thru S14",
+      'The Walking Dead: World Beyond',
     ],
   },
   {
     name: 'Other',
     class: 'other',
-    shows: ['Jumanji: The Next Level', 'Zombieland: Double Tap'],
+    shows: [],
   },
 ];
 

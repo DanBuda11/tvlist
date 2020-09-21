@@ -86,8 +86,8 @@ h3 {
   color: #0e6aa8;
 }
 
-.slingtv {
-  color: #14abe0;
+.starz {
+  color: #000;
 }
 
 .disneyplus {
@@ -104,6 +104,10 @@ h3 {
 
 .peacock {
   color: #fda002;
+}
+
+.youtubetv {
+  color: #ff0000;
 }
 
 ul {
