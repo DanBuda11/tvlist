@@ -56,7 +56,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: [],
+    shows: ['Brooklyn Nine-Nine'],
   },
   {
     name: 'Netflix',
@@ -115,7 +115,6 @@ const data = [
       'Rick & Morty - thru S4',
       'The Venture Bros. - thru S7',
       'The Walking Dead - thru S10E13',
-      "Schitt's Creek - thru S6E7",
       'Archer - thru S10',
       "It's Always Sunny in Philadelphia - thru S14",
       'The Walking Dead: World Beyond',
