@@ -95,6 +95,7 @@ const data = [
       'Cobra Kai',
       'Transformers: War for Cybertron',
       'Avatar: The Last Airbender',
+      "The Queen's Gambit",
     ],
   },
   {
