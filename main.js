@@ -65,7 +65,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['Brooklyn Nine-Nine'],
+    shows: ['Brooklyn Nine-Nine', 'The Orville'],
   },
   {
     name: 'Netflix',
