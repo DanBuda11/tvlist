@@ -10,7 +10,14 @@ const data = [
   {
     name: 'Amazon Prime',
     class: 'amazon',
-    shows: ['Jack Ryan', 'Hunters', 'The Boys', 'Upload', 'Undone'],
+    shows: [
+      'Jack Ryan',
+      'Hunters',
+      'The Boys',
+      'Upload',
+      'Undone',
+      'Borat: Subsequent Moviefilm',
+    ],
   },
   {
     name: 'Austin Public Library',
@@ -51,6 +58,8 @@ const data = [
       'The Way Back',
       'Jojo Rabbit',
       'Raised by Wolves',
+      'Us',
+      'A West Wing Special to Benefit When We All Vote',
     ],
   },
   {
@@ -96,6 +105,7 @@ const data = [
       'Transformers: War for Cybertron',
       'Avatar: The Last Airbender',
       "The Queen's Gambit",
+      'Emily in Paris',
     ],
   },
   {
@@ -106,7 +116,7 @@ const data = [
   {
     name: 'Starz',
     class: 'starz',
-    shows: ['Jumanji: The Next Level', 'Zombieland: Double Tap'],
+    shows: [],
   },
   {
     name: 'YouTube TV',
@@ -115,8 +125,8 @@ const data = [
       'Fear the Walking Dead - thru S5',
       'Rick & Morty - thru S4',
       'The Venture Bros. - thru S7',
-      'The Walking Dead - thru S10E13',
-      'Archer - thru S10',
+      'The Walking Dead - thru S10',
+      'Archer - thru S11',
       "It's Always Sunny in Philadelphia - thru S14",
       'The Walking Dead: World Beyond',
     ],
