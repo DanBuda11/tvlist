@@ -25,16 +25,7 @@ const data = [
   {
     name: 'Disney Plus',
     class: 'disneyplus',
-    shows: [
-      'Agent Carter',
-      'The Mandalorian',
-      'Aladdin',
-      'Moana',
-      'Frozen II',
-      'Toy Story 4',
-      'Finding Dory',
-      'Muppets Now',
-    ],
+    shows: ['Agent Carter', 'The Mandalorian'],
   },
   {
     name: 'HBO Max',
@@ -78,7 +69,6 @@ const data = [
       'The Crown',
       'The Witcher',
       'Castlevania',
-      'Dirty Money',
       'Ozark',
       'Giri/Haji',
       'The Last Dance',
