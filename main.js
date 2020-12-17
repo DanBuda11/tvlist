@@ -25,7 +25,7 @@ const data = [
   {
     name: 'Disney Plus',
     class: 'disneyplus',
-    shows: ['Agent Carter', 'The Mandalorian'],
+    shows: ['The Mandalorian'],
   },
   {
     name: 'HBO Max',
@@ -39,9 +39,7 @@ const data = [
       'Perry Mason',
       'Lovecraft Country',
       'Batwoman',
-      'The Way Back',
       'Raised by Wolves',
-      'Us',
     ],
   },
   {
