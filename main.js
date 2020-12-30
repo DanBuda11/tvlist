@@ -94,7 +94,7 @@ const data = [
     name: 'YouTube TV',
     class: 'youtubetv',
     shows: [
-      'Fear the Walking Dead - thru S5',
+      'Fear the Walking Dead - thru S6E7',
       'Rick & Morty - thru S4',
       'The Venture Bros. - thru S7',
       'The Walking Dead - thru S10',
