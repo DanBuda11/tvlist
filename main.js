@@ -78,6 +78,7 @@ const data = [
       'Avatar: The Last Airbender',
       "The Queen's Gambit",
       'Emily in Paris',
+      'The English Game',
     ],
   },
   {
@@ -100,7 +101,7 @@ const data = [
       'The Walking Dead - thru S10',
       'Archer - thru S11',
       "It's Always Sunny in Philadelphia - thru S14",
-      'The Walking Dead: World Beyond',
+      'The Walking Dead: World Beyond - thru S1',
     ],
   },
   {
