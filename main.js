@@ -76,7 +76,6 @@ const data = [
       'Cobra Kai',
       'Transformers: War for Cybertron',
       'Avatar: The Last Airbender',
-      "The Queen's Gambit",
       'Emily in Paris',
       'The English Game',
     ],
@@ -175,6 +174,10 @@ const books = [
   {
     series: '',
     titles: ['Starting Strength'],
+  },
+  {
+    series: '',
+    titles: ['Ready Player Two'],
   },
 ];
 
