@@ -20,12 +20,12 @@ const data = [
   {
     name: 'CBS All Access',
     class: 'cbs',
-    shows: ['Star Trek: Picard', 'Star Trek: Discovery'],
+    shows: ['Star Trek: Picard', 'Star Trek: Discovery', 'The Stand',],
   },
   {
     name: 'Disney Plus',
     class: 'disneyplus',
-    shows: ['The Mandalorian'],
+    shows: ['The Mandalorian', 'Wandavision',],
   },
   {
     name: 'HBO Max',
@@ -38,14 +38,13 @@ const data = [
       'Succession',
       'Perry Mason',
       'Lovecraft Country',
-      'Batwoman',
       'Raised by Wolves',
     ],
   },
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['Brooklyn Nine-Nine', 'The Orville'],
+    shows: ['The Orville'],
   },
   {
     name: 'Netflix',
@@ -72,7 +71,6 @@ const data = [
       'Black Mirror',
       'Dark',
       'The Umbrella Academy',
-      'Hot Date',
       'Cobra Kai',
       'Transformers: War for Cybertron',
       'Avatar: The Last Airbender',
@@ -83,7 +81,7 @@ const data = [
   {
     name: 'Peacock',
     class: 'peacock',
-    shows: [],
+    shows: ['Brooklyn Nine-Nine',],
   },
   {
     name: 'Starz',
@@ -106,7 +104,7 @@ const data = [
   {
     name: 'Other',
     class: 'other',
-    shows: [],
+    shows: ['Hot Date', 'Batwoman',],
   },
 ];
 
