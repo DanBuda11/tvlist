@@ -13,6 +13,11 @@ const data = [
     shows: ['Jack Ryan', 'Hunters', 'The Boys', 'Upload', 'Undone'],
   },
   {
+    name: 'Apple TV+',
+    class: 'apple',
+    shows: ['Ted Lasso', 'For All Mankind', 'See'],
+  },
+  {
     name: 'Austin Public Library',
     class: 'library',
     shows: [],
@@ -20,12 +25,12 @@ const data = [
   {
     name: 'CBS All Access',
     class: 'cbs',
-    shows: ['Star Trek: Picard', 'Star Trek: Discovery', 'The Stand',],
+    shows: ['Star Trek: Picard', 'Star Trek: Discovery', 'The Stand'],
   },
   {
     name: 'Disney Plus',
     class: 'disneyplus',
-    shows: ['The Mandalorian', 'Wandavision',],
+    shows: ['The Mandalorian', 'Wandavision'],
   },
   {
     name: 'HBO Max',
@@ -81,7 +86,7 @@ const data = [
   {
     name: 'Peacock',
     class: 'peacock',
-    shows: ['Brooklyn Nine-Nine',],
+    shows: ['Brooklyn Nine-Nine'],
   },
   {
     name: 'Starz',
@@ -104,7 +109,7 @@ const data = [
   {
     name: 'Other',
     class: 'other',
-    shows: ['Hot Date', 'Batwoman',],
+    shows: ['Hot Date', 'Batwoman'],
   },
 ];
 
