@@ -44,6 +44,8 @@ const data = [
       'Perry Mason',
       'Lovecraft Country',
       'Raised by Wolves',
+      'Doom Patrol',
+      'Titans',
     ],
   },
   {
@@ -72,7 +74,6 @@ const data = [
       'Castlevania',
       'Ozark',
       'Giri/Haji',
-      'The Last Dance',
       'Black Mirror',
       'Dark',
       'The Umbrella Academy',
