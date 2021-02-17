@@ -10,7 +10,14 @@ const data = [
   {
     name: 'Amazon Prime',
     class: 'amazon',
-    shows: ['Jack Ryan', 'Hunters', 'The Boys', 'Upload', 'Undone'],
+    shows: [
+      'Jack Ryan',
+      'Hunters',
+      'The Boys',
+      'Upload',
+      'Undone',
+      'The Expanse',
+    ],
   },
   {
     name: 'Apple TV+',
@@ -82,17 +89,13 @@ const data = [
       'Avatar: The Last Airbender',
       'Emily in Paris',
       'The English Game',
+      'Alien Worlds',
     ],
   },
   {
     name: 'Peacock',
     class: 'peacock',
     shows: ['Brooklyn Nine-Nine'],
-  },
-  {
-    name: 'Starz',
-    class: 'starz',
-    shows: [],
   },
   {
     name: 'YouTube TV',
@@ -105,6 +108,7 @@ const data = [
       'Archer - thru S11',
       "It's Always Sunny in Philadelphia - thru S14",
       'The Walking Dead: World Beyond - thru S1',
+      'Resident Alien',
     ],
   },
   {
@@ -121,7 +125,7 @@ const books = [
   },
   {
     series: 'The Lost Chronicles Trilogy',
-    titles: ['Dragons of the Highlord Skies', 'Dragons of the Hourglass Mage'],
+    titles: ['Dragons of the Hourglass Mage'],
   },
   {
     series: 'The War of Souls Trilogy',
