@@ -115,7 +115,7 @@ const data = [
   {
     name: 'Other',
     class: 'other',
-    shows: ['Hot Date', 'Batwoman'],
+    shows: ['Hot Date', 'Batwoman', 'Superman & Lois'],
   },
 ];
 
