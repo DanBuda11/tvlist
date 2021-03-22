@@ -99,7 +99,6 @@ const data = [
     shows: [
       'Fear the Walking Dead - thru S6E7',
       'Rick & Morty - thru S4',
-      'The Venture Bros. - thru S7',
       'The Walking Dead - thru S10E20',
       'Archer - thru S11',
       "It's Always Sunny in Philadelphia - thru S14",
