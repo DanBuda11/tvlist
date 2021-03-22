@@ -30,14 +30,9 @@ const data = [
     shows: [],
   },
   {
-    name: 'CBS All Access',
-    class: 'cbs',
-    shows: ['Star Trek: Picard', 'Star Trek: Discovery', 'The Stand'],
-  },
-  {
     name: 'Disney Plus',
     class: 'disneyplus',
-    shows: ['The Mandalorian', 'Wandavision'],
+    shows: ['The Mandalorian', 'The Falcon & the Winter Soldier'],
   },
   {
     name: 'HBO Max',
@@ -71,17 +66,14 @@ const data = [
       'Arrow',
       'Better Call Saul',
       'Queer Eye',
-      'Altered Carbon',
       'Supergirl',
       'Black Lightning',
-      'GLOW',
       'Narcos: Mexico',
       'The Crown',
       'The Witcher',
       'Castlevania',
       'Ozark',
       'Giri/Haji',
-      'Black Mirror',
       'Dark',
       'The Umbrella Academy',
       'Cobra Kai',
@@ -89,8 +81,12 @@ const data = [
       'Avatar: The Last Airbender',
       'Emily in Paris',
       'The English Game',
-      'Alien Worlds',
     ],
+  },
+  {
+    name: 'Paramount+',
+    class: 'cbs',
+    shows: ['Star Trek: Picard', 'Star Trek: Discovery', 'The Stand'],
   },
   {
     name: 'Peacock',
@@ -104,18 +100,18 @@ const data = [
       'Fear the Walking Dead - thru S6E7',
       'Rick & Morty - thru S4',
       'The Venture Bros. - thru S7',
-      'The Walking Dead - thru S10',
+      'The Walking Dead - thru S10E20',
       'Archer - thru S11',
       "It's Always Sunny in Philadelphia - thru S14",
       'The Walking Dead: World Beyond - thru S1',
       'Resident Alien',
-      'Stanley Tucci: Searching for Italy',
+      'Stanley Tucci: Searching for Italy - thru E5',
     ],
   },
   {
     name: 'Other',
     class: 'other',
-    shows: ['Hot Date', 'Batwoman', 'Superman & Lois'],
+    shows: ['Hot Date', 'Batwoman - thru S2E6', 'Superman & Lois - thru S1E3'],
   },
 ];
 
@@ -123,10 +119,6 @@ const books = [
   {
     series: "You Don't Know JS",
     titles: ['Types & Grammar', 'Async & Performance', 'ES6 & Beyond'],
-  },
-  {
-    series: 'The Lost Chronicles Trilogy',
-    titles: ['Dragons of the Hourglass Mage'],
   },
   {
     series: 'The War of Souls Trilogy',
