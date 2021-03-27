@@ -81,6 +81,7 @@ const data = [
       'Avatar: The Last Airbender',
       'Emily in Paris',
       'The English Game',
+      'Disenchantment',
     ],
   },
   {
@@ -110,7 +111,7 @@ const data = [
   {
     name: 'Other',
     class: 'other',
-    shows: ['Hot Date', 'Batwoman - thru S2E6', 'Superman & Lois - thru S1E3'],
+    shows: ['Hot Date', 'Batwoman - thru S2E8', 'Superman & Lois - thru S1E5'],
   },
 ];
 
