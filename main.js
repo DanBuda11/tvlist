@@ -17,6 +17,7 @@ const data = [
       'Upload',
       'Undone',
       'The Expanse',
+      'Invincible',
     ],
   },
   {
@@ -100,18 +101,18 @@ const data = [
     shows: [
       'Fear the Walking Dead - thru S6E7',
       'Rick & Morty - thru S4',
-      'The Walking Dead - thru S10E20',
+      'The Walking Dead - thru S10E22',
       'Archer - thru S11',
       "It's Always Sunny in Philadelphia - thru S14",
       'The Walking Dead: World Beyond - thru S1',
       'Resident Alien',
-      'Stanley Tucci: Searching for Italy - thru E5',
+      'Stanley Tucci: Searching for Italy - thru S1',
     ],
   },
   {
     name: 'Other',
     class: 'other',
-    shows: ['Hot Date', 'Batwoman - thru S2E8', 'Superman & Lois - thru S1E5'],
+    shows: ['Hot Date', 'Batwoman - thru S2E9', 'Superman & Lois - thru S1E5'],
   },
 ];
 
