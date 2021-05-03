@@ -23,7 +23,13 @@ const data = [
   {
     name: 'Apple TV+',
     class: 'apple',
-    shows: ['Ted Lasso', 'For All Mankind', 'See'],
+    shows: [
+      'Ted Lasso',
+      'For All Mankind',
+      'See',
+      'The Year Earth Changed',
+      'Mythic Quest',
+    ],
   },
   {
     name: 'Austin Public Library',
@@ -33,7 +39,14 @@ const data = [
   {
     name: 'Disney Plus',
     class: 'disneyplus',
-    shows: ['The Mandalorian', 'The Falcon & the Winter Soldier'],
+    shows: [
+      'The Mandalorian',
+      'Cruella',
+      'Black Widow',
+      'Ewoks: The Battle for Endor',
+      'Ewoks',
+      'Star Wars: Caravan of Courage',
+    ],
   },
   {
     name: 'HBO Max',
@@ -49,12 +62,13 @@ const data = [
       'Raised by Wolves',
       'Doom Patrol',
       'Titans',
+      'The New Mutants',
     ],
   },
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['The Orville'],
+    shows: ['The Orville', 'Solar Opposites'],
   },
   {
     name: 'Netflix',
@@ -83,6 +97,7 @@ const data = [
       'Emily in Paris',
       'The English Game',
       'Disenchantment',
+      'I Care A Lot',
     ],
   },
   {
