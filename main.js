@@ -18,18 +18,13 @@ const data = [
       'Undone',
       'The Expanse',
       'Invincible',
+      "Tom Clancy's Without Remorse",
     ],
   },
   {
     name: 'Apple TV+',
     class: 'apple',
-    shows: [
-      'Ted Lasso',
-      'For All Mankind',
-      'See',
-      'The Year Earth Changed',
-      'Mythic Quest',
-    ],
+    shows: ['Ted Lasso', 'For All Mankind', 'See', 'Mythic Quest'],
   },
   {
     name: 'Austin Public Library',
@@ -46,6 +41,9 @@ const data = [
       'Ewoks: The Battle for Endor',
       'Ewoks',
       'Star Wars: Caravan of Courage',
+      'The Bad Batch',
+      'Loki',
+      'Rava and the Last Dragon',
     ],
   },
   {
@@ -68,7 +66,7 @@ const data = [
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['The Orville', 'Solar Opposites'],
+    shows: ['The Orville', 'Solar Opposites', 'Justified'],
   },
   {
     name: 'Netflix',
@@ -98,6 +96,8 @@ const data = [
       'The English Game',
       'Disenchantment',
       'I Care A Lot',
+      'Operation Varsity Blues: The College Admissions Scandal',
+      'Pacific Rim: The Black',
     ],
   },
   {
