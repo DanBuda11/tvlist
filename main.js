@@ -131,7 +131,7 @@ const data = [
     class: 'youtubetv',
     shows: [
       'Fear the Walking Dead - thru S6E7',
-      'Rick & Morty - thru S4',
+      'Rick & Morty - thru S5E1',
       'The Walking Dead - thru S10E22',
       'Archer - thru S11',
       "It's Always Sunny in Philadelphia - thru S14",
