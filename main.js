@@ -19,6 +19,7 @@ const data = [
       'The Expanse',
       'Invincible',
       "Tom Clancy's Without Remorse",
+      "Clarkson's Farm",
     ],
   },
   {
@@ -44,6 +45,7 @@ const data = [
       'The Bad Batch',
       'Loki',
       'Rava and the Last Dragon',
+      'Marvel Studios Legends',
     ],
   },
   {
@@ -61,12 +63,21 @@ const data = [
       'Doom Patrol',
       'Titans',
       'The New Mutants',
+      'The Crime of the Century',
+      'Tenet',
     ],
   },
   {
     name: 'Hulu',
     class: 'hulu',
-    shows: ['The Orville', 'Solar Opposites', 'Justified'],
+    shows: [
+      'The Orville',
+      'Solar Opposites',
+      'Justified',
+      'MODOK',
+      'Helstrom',
+      'Freaks & Geeks',
+    ],
   },
   {
     name: 'Netflix',
@@ -98,6 +109,11 @@ const data = [
       'I Care A Lot',
       'Operation Varsity Blues: The College Admissions Scandal',
       'Pacific Rim: The Black',
+      'Master of None',
+      'Project Power',
+      'Ava',
+      "Jupiter's Legacy",
+      'Operation Varsity Blues',
     ],
   },
   {
