@@ -130,7 +130,7 @@ const data = [
     name: 'YouTube TV',
     class: 'youtubetv',
     shows: [
-      'Fear the Walking Dead - thru S6E7',
+      'Fear the Walking Dead - thru S6E13',
       'Rick & Morty - thru S5E1',
       'The Walking Dead - thru S10E22',
       'Archer - thru S11',
