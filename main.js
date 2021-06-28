@@ -44,7 +44,7 @@ const data = [
       'Star Wars: Caravan of Courage',
       'The Bad Batch',
       'Loki',
-      'Rava and the Last Dragon',
+      'Raya and the Last Dragon',
       'Marvel Studios Legends',
     ],
   },
@@ -113,7 +113,6 @@ const data = [
       'Project Power',
       'Ava',
       "Jupiter's Legacy",
-      'Operation Varsity Blues',
     ],
   },
   {
