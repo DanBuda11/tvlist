@@ -114,7 +114,7 @@ const data = [
       'Archer - thru S11',
       "It's Always Sunny in Philadelphia - thru S14",
       'The Walking Dead: World Beyond - thru S1',
-      'Resident Alien',
+      'Resident Alien - thru S1E8',
       'Stanley Tucci: Searching for Italy - thru S1',
     ],
   },
