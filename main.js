@@ -9,7 +9,7 @@ let allData = [];
 const data = [
   {
     name: 'Amazon Prime',
-    class: 'amazon',
+    color: 'F90',
     shows: [
       'Jack Ryan',
       'Hunters',
@@ -23,17 +23,17 @@ const data = [
   },
   {
     name: 'Apple TV+',
-    class: 'apple',
-    shows: ['Ted Lasso', 'For All Mankind', 'See', 'Mythic Quest'],
+    color: '25312e',
+    shows: ['Ted Lasso', 'For All Mankind', 'Mythic Quest'],
   },
   {
-    name: 'Austin Public Library',
-    class: 'library',
-    shows: [],
+    name: 'CW',
+    color: '2ca8a8',
+    shows: ['Batwoman - thru S2E15', 'Superman & Lois - thru S1E2'],
   },
   {
     name: 'Disney Plus',
-    class: 'disneyplus',
+    color: '16265f',
     shows: [
       'The Mandalorian',
       'Cruella',
@@ -44,7 +44,7 @@ const data = [
   },
   {
     name: 'HBO Max',
-    class: 'hbo',
+    color: 'c400fd',
     image: 'hbogo.png',
     shows: [
       'Barry',
@@ -60,12 +60,12 @@ const data = [
   },
   {
     name: 'Hulu',
-    class: 'hulu',
+    color: '3dbb3d',
     shows: ['The Orville', 'Solar Opposites', 'Justified', 'MODOK', 'Helstrom'],
   },
   {
     name: 'Netflix',
-    class: 'netflix',
+    color: 'b9090b',
     shows: [
       'The Flash',
       "DC's Legends of Tommorrow",
@@ -82,7 +82,6 @@ const data = [
       'Castlevania',
       'Ozark',
       'Giri/Haji',
-      'Dark',
       'The Umbrella Academy',
       'Cobra Kai',
       'Transformers: War for Cybertron',
@@ -95,36 +94,27 @@ const data = [
     ],
   },
   {
-    name: 'Paramount+',
-    class: 'cbs',
-    shows: ['Star Trek: Picard', 'Star Trek: Discovery', 'The Stand'],
-  },
-  {
     name: 'Peacock',
-    class: 'peacock',
+    color: 'fda002',
     shows: ['Brooklyn Nine-Nine'],
   },
   {
-    name: 'YouTube TV',
-    class: 'youtubetv',
-    shows: [
-      'Fear the Walking Dead - thru S6',
-      'Rick & Morty - thru S5E4',
-      'The Walking Dead - thru S10',
-      'Archer - thru S11',
-      "It's Always Sunny in Philadelphia - thru S14",
-      'The Walking Dead: World Beyond - thru S1',
-      'Resident Alien - thru S1',
-      'Stanley Tucci: Searching for Italy - thru S1',
-    ],
+    name: 'Pop',
+    color: 'f0c61f',
+    shows: ['Hot Date'],
   },
   {
-    name: 'Other',
-    class: 'other',
+    name: 'YouTube TV',
+    color: 'f00',
     shows: [
-      'Hot Date',
-      'Batwoman - thru S2E12',
-      'Superman & Lois - thru S1E12',
+      'Fear the Walking Dead',
+      'Rick & Morty - thru S5E4',
+      'The Walking Dead',
+      'Archer',
+      "It's Always Sunny in Philadelphia",
+      'The Walking Dead: World Beyond',
+      'Resident Alien',
+      'Stanley Tucci: Searching for Italy',
     ],
   },
 ];
@@ -205,7 +195,7 @@ function renderShows(data) {
       const channelData = [];
       // Create the h2 element for the channel name
 
-      const channelName = `<div class="channelContainer"><h2 class=${channel.class}>${channel.name}</h2>`;
+      const channelName = `<div class="channelContainer"><h2 style="color:#${channel.color};">${channel.name}</h2>`;
 
       // Push the 1st half of the ul tag with class name into the array
       channelData.push(`${channelName}<ul class='${channel.class}list'>`);
