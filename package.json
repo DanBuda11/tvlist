@@ -19,7 +19,6 @@
     "url": "https://github.com/DanBuda11/tvlist/issues"
   },
   "homepage": "https://github.com/DanBuda11/tvlist#readme",
-  "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.1.0",
