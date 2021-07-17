@@ -121,7 +121,11 @@ const data = [
   {
     name: 'Other',
     class: 'other',
-    shows: ['Hot Date', 'Batwoman - thru S2E9', 'Superman & Lois - thru S1E12'],
+    shows: [
+      'Hot Date',
+      'Batwoman - thru S2E12',
+      'Superman & Lois - thru S1E12',
+    ],
   },
 ];
 
