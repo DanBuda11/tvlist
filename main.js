@@ -29,7 +29,7 @@ const data = [
   {
     name: 'CW',
     color: '2ca8a8',
-    shows: ['Batwoman - thru S2', 'Superman & Lois - thru S1E2'],
+    shows: ['Batwoman - thru S2', 'Superman & Lois - thru S1E13'],
   },
   {
     name: 'Disney Plus',
@@ -108,7 +108,7 @@ const data = [
     color: 'f00',
     shows: [
       'Fear the Walking Dead',
-      'Rick & Morty - thru S5E5',
+      'Rick & Morty - thru S5E6',
       'The Walking Dead',
       'Archer',
       "It's Always Sunny in Philadelphia",
