@@ -61,7 +61,14 @@ const data = [
   {
     name: 'Hulu',
     color: '3dbb3d',
-    shows: ['The Orville', 'Solar Opposites', 'Justified', 'MODOK', 'Helstrom'],
+    shows: [
+      'The Orville',
+      'Solar Opposites',
+      'Justified',
+      'MODOK',
+      'Helstrom',
+      'Brooklyn Nine-Nine',
+    ],
   },
   {
     name: 'Netflix',
@@ -96,7 +103,7 @@ const data = [
   {
     name: 'Peacock',
     color: 'fda002',
-    shows: ['Brooklyn Nine-Nine'],
+    shows: [],
   },
   {
     name: 'Pop',
@@ -108,7 +115,7 @@ const data = [
     color: 'f00',
     shows: [
       'Fear the Walking Dead',
-      'Rick & Morty - thru S5E6',
+      'Rick & Morty - thru S5E8',
       'The Walking Dead',
       'Archer',
       "It's Always Sunny in Philadelphia",
