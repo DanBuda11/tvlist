@@ -29,7 +29,7 @@ const data = [
   {
     name: 'CW',
     color: '2ca8a8',
-    shows: ['Batwoman - thru S2', 'Superman & Lois - thru S1E13'],
+    shows: ['Batwoman - thru S2', 'Superman & Lois - thru S1'],
   },
   {
     name: 'Disney Plus',
@@ -61,14 +61,7 @@ const data = [
   {
     name: 'Hulu',
     color: '3dbb3d',
-    shows: [
-      'The Orville',
-      'Solar Opposites',
-      'Justified',
-      'MODOK',
-      'Helstrom',
-      'Brooklyn Nine-Nine',
-    ],
+    shows: ['The Orville', 'Solar Opposites', 'MODOK', 'Brooklyn Nine-Nine'],
   },
   {
     name: 'Netflix',
@@ -87,8 +80,6 @@ const data = [
       'The Crown',
       'The Witcher',
       'Castlevania',
-      'Ozark',
-      'Giri/Haji',
       'The Umbrella Academy',
       'Cobra Kai',
       'Transformers: War for Cybertron',
@@ -190,6 +181,10 @@ const books = [
   {
     series: '',
     titles: ['Ready Player Two'],
+  },
+  {
+    series: '',
+    titles: ['Mine!'],
   },
 ];
 
