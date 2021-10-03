@@ -24,7 +24,7 @@ const data = [
   {
     name: 'Apple TV+',
     color: '25312e',
-    shows: ['Ted Lasso', 'For All Mankind', 'Mythic Quest'],
+    shows: ['Ted Lasso', 'For All Mankind', 'Mythic Quest', 'Foundation'],
   },
   {
     name: 'CW',
@@ -41,6 +41,7 @@ const data = [
       'Loki',
       'Marvel: What If',
       'Jungle Cruise',
+      'Star Wars Visions',
     ],
   },
   {
@@ -62,7 +63,7 @@ const data = [
   {
     name: 'Hulu',
     color: '3dbb3d',
-    shows: ['The Orville', 'Solar Opposites', 'MODOK', 'Brooklyn Nine-Nine'],
+    shows: ['The Orville', 'Solar Opposites', 'MODOK'],
   },
   {
     name: 'Netflix',
@@ -83,7 +84,6 @@ const data = [
       'The Umbrella Academy',
       'Cobra Kai',
       'Emily in Paris',
-      'The English Game',
       'Disenchantment',
       'Pacific Rim: The Black',
       'Master of None',
@@ -105,7 +105,7 @@ const data = [
     color: 'f00',
     shows: [
       'Fear the Walking Dead',
-      'Rick & Morty - thru S5',
+      'Rick & Morty',
       'The Walking Dead',
       'Archer',
       "It's Always Sunny in Philadelphia",
@@ -184,6 +184,10 @@ const books = [
   {
     series: '',
     titles: ['Mine!'],
+  },
+  {
+    series: '',
+    titles: ['Sludge'],
   },
 ];
 
