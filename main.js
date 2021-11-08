@@ -24,7 +24,13 @@ const data = [
   {
     name: 'Apple TV+',
     color: '25312e',
-    shows: ['Ted Lasso', 'For All Mankind', 'Mythic Quest', 'Foundation'],
+    shows: [
+      'Ted Lasso',
+      'For All Mankind',
+      'Mythic Quest',
+      'Foundation',
+      'Invasion',
+    ],
   },
   {
     name: 'CW',
@@ -36,7 +42,6 @@ const data = [
     color: '16265f',
     shows: [
       'The Mandalorian',
-      'Black Widow',
       'The Bad Batch',
       'Loki',
       'Marvel: What If',
@@ -73,7 +78,6 @@ const data = [
       "DC's Legends of Tommorrow",
       "Marvel's Agents of S.H.I.E.L.D.",
       'Stranger Things',
-      'Arrow',
       'Better Call Saul',
       'Queer Eye',
       'Supergirl',
@@ -104,12 +108,12 @@ const data = [
     name: 'YouTube TV',
     color: 'f00',
     shows: [
-      'Fear the Walking Dead',
+      'Fear the Walking Dead - thru S7E4',
       'Rick & Morty',
       'The Walking Dead',
       'Archer',
       "It's Always Sunny in Philadelphia",
-      'The Walking Dead: World Beyond',
+      'The Walking Dead: World Beyond - thru S2E6',
       'Resident Alien',
       'Stanley Tucci: Searching for Italy',
     ],
