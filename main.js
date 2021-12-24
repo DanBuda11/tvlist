@@ -69,7 +69,6 @@ const data = [
       '*Station Eleven',
       'And Just Like That...',
       '*Snowpiercer',
-      '*Station Eleven',
     ],
   },
   {
