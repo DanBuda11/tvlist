@@ -32,7 +32,6 @@ const data = [
       'Mythic Quest',
       'Foundation',
       'Invasion',
-      '*The Morning Show',
     ],
   },
   {
@@ -125,7 +124,7 @@ const data = [
   },
   {
     name: 'Other',
-    shows: ['The Walking Dead'],
+    shows: [],
   },
 ];
 
