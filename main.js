@@ -48,7 +48,7 @@ const data = [
       'Loki',
       'Marvel: What If',
       'The Book of Boba Fett',
-      "*Marvel's Agents of S.H.I.E.L.D.",
+      "*Marvel's Agents of S.H.I.E.L.D. S4E20",
       'Moon Knight',
     ],
   },
