@@ -48,6 +48,8 @@ const data = [
       'Loki',
       'Marvel: What If',
       'The Book of Boba Fett',
+      "*Marvel's Agents of S.H.I.E.L.D.",
+      'Moon Knight',
     ],
   },
   {
@@ -64,7 +66,6 @@ const data = [
       'Raised by Wolves',
       'Doom Patrol',
       'Titans',
-      '*Station Eleven',
       'And Just Like That...',
     ],
   },
@@ -79,7 +80,6 @@ const data = [
     shows: [
       'The Flash',
       "DC's Legends of Tommorrow",
-      "*Marvel's Agents of S.H.I.E.L.D.",
       'Stranger Things',
       'Better Call Saul',
       'Queer Eye',
@@ -200,6 +200,14 @@ const books = [
   {
     series: '',
     titles: ['Sludge'],
+  },
+  {
+    series: '',
+    titles: ['Mickey 7'],
+  },
+  {
+    series: '',
+    titles: ['stolen focus'],
   },
 ];
 
