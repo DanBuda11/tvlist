@@ -82,7 +82,7 @@ const data = [
   {
     name: 'Hulu',
     color: '3dbb3d',
-    shows: ['The Orville', 'Solar Opposites', 'MODOK', 'The Great'],
+    shows: ['The Orville', 'Solar Opposites', 'MODOK', 'The Great', 'Legion'],
   },
   {
     name: 'Netflix',
@@ -158,26 +158,6 @@ const books = [
     titles: ['The Soulforge', 'Brothers in Arms'],
   },
   {
-    series: 'Dragonlance Tales I',
-    titles: [
-      'The Magic of Krynn',
-      'Kender, Gully Dwarves and Gnomes',
-      'Love and War',
-    ],
-  },
-  {
-    series: 'Dragonlance Tales II',
-    titles: ['The Reign of Istar', 'The Cataclysm', 'The War of the Lance'],
-  },
-  {
-    series: 'Dragon Anthologies',
-    titles: [
-      'The Dragons of Krynn',
-      'The Dragons at War',
-      'The Dragons of Chaos',
-    ],
-  },
-  {
     series: 'Requiem: Dragonfire Rain',
     titles: ['Blood of Dragons', 'Rage of Dragons', 'Flight of Dragons'],
   },
@@ -216,6 +196,14 @@ const books = [
   {
     series: '',
     titles: ['stolen focus'],
+  },
+  {
+    series: '',
+    titles: ['THe World of Critical Role'],
+  },
+  {
+    series: '',
+    titles: ['Start Your Farm'],
   },
 ];
 
