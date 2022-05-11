@@ -21,6 +21,11 @@ const data = [
       'Reacher',
       'Wheel of Time',
       'The Legend of Vox Machina',
+      'The Boys: Diabolical',
+      'The Rings of Power',
+      'Snake Eyes',
+      'The Protege',
+      'All the Old Knives',
     ],
   },
   {
@@ -52,9 +57,7 @@ const data = [
       'Marvel: What If',
       'The Book of Boba Fett',
       "Marvel's Agents of S.H.I.E.L.D. thru S4E20",
-      'Moon Knight',
       'Star Wars: Visions',
-      'The Biggest Little Farm: The Return',
     ],
   },
   {
@@ -67,7 +70,6 @@ const data = [
       'His Dark Materials',
       'Succession',
       'Perry Mason',
-      'Lovecraft Country',
       'Raised by Wolves',
       'Doom Patrol',
       'Titans',
@@ -99,7 +101,6 @@ const data = [
       'Cobra Kai',
       'Emily in Paris',
       'Disenchantment',
-      'Pacific Rim: The Black',
       'Master of None',
       'Masters of the Universe: Revelation',
       'Arcane',
@@ -113,7 +114,7 @@ const data = [
   {
     name: 'Pop',
     color: 'f0c61f',
-    shows: ['Hot Date'],
+    shows: [],
   },
   {
     name: 'YouTube TV',
