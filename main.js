@@ -23,9 +23,8 @@ const data = [
       'The Legend of Vox Machina',
       'The Boys: Diabolical',
       'The Rings of Power',
-      'Snake Eyes',
-      'The Protege',
-      'All the Old Knives',
+      'Outer Range',
+      'Night Sky',
     ],
   },
   {
@@ -45,7 +44,7 @@ const data = [
   {
     name: 'CW',
     color: '2ca8a8',
-    shows: ['Batwoman - thru S2', 'Superman & Lois - thru S1'],
+    shows: ['Superman & Lois - thru S1'],
   },
   {
     name: 'Disney Plus',
@@ -58,6 +57,7 @@ const data = [
       'The Book of Boba Fett',
       "Marvel's Agents of S.H.I.E.L.D. thru S4E20",
       'Star Wars: Visions',
+      'Ms. Marvel',
     ],
   },
   {
@@ -77,6 +77,7 @@ const data = [
       'The Righteous Gemstones',
       'Snowpiercer',
       'Peacemaker',
+      'Batwoman - thru S2',
     ],
   },
   {
@@ -187,19 +188,11 @@ const books = [
   },
   {
     series: '',
-    titles: ['Sludge'],
-  },
-  {
-    series: '',
     titles: ['Mickey 7'],
   },
   {
     series: '',
     titles: ['stolen focus'],
-  },
-  {
-    series: '',
-    titles: ['THe World of Critical Role'],
   },
   {
     series: '',
@@ -225,7 +218,7 @@ function renderShows(data) {
         return show.replace(/^(a |the |an )/i, '').trim();
       }
       const sortedShows = channel.shows.sort((a, b) =>
-        strip(a) > strip(b) ? 1 : -1,
+        strip(a) > strip(b) ? 1 : -1
       );
 
       // Iterate over each show in the shows array and push into the array with an li tag
