@@ -36,8 +36,6 @@ const data = [
       'Mythic Quest',
       'Foundation',
       'Invasion',
-      'The Problem with Jon Stewart',
-      'Fraggle Rock',
       'Severance',
     ],
   },
